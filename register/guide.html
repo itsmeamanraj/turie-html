@@ -1,0 +1,1313 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="x-ua-compatible" content="ie=edge">
+   <title>Join as a Guide – TripInBlink</title>
+   <meta name="description" content="Join our global network of local guides, share your city's secrets, and run your own independent tour business on your terms.">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <!-- Favicon -->
+   <link rel="shortcut icon" type="image/x-icon" href="../assets/img/logo/favicon.png">
+
+   <!-- CSS here -->
+   <link rel="stylesheet" href="../assets/css/bootstrap.css">
+   <link rel="stylesheet" href="../assets/css/swiper-bundle.css">
+   <link rel="stylesheet" href="../assets/css/magnific-popup.css">
+   <link rel="stylesheet" href="../assets/css/font-awesome-pro.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css">
+   <link rel="stylesheet" href="../assets/css/animate.css">
+   <link rel="stylesheet" href="../assets/css/spacing.css">
+   <link rel="stylesheet" href="../assets/css/main.css">
+   <link rel="stylesheet" href="../assets/css/register-guide.css">
+
+   <!-- Google Fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Inter:wght@400;500;600;700&family=Onest:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   <!--[if lte IE 9]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+   <![endif]-->
+
+   <!-- preloader start -->
+   <div id="loading">
+      <div class="loader">
+         <div class="plane">
+            <img src="../assets/img/preloader/fly.png" class="plane-img" alt="fly">
+         </div>
+         <div class="earth-wrapper">
+            <div class="earth"></div>
+         </div>
+      </div>
+   </div>
+   <script>
+      window.addEventListener('DOMContentLoaded', function() {
+         setTimeout(function() {
+            var loader = document.getElementById('loading');
+            if (loader) loader.style.display = 'none';
+         }, 350);
+      });
+   </script>
+   <!-- preloader end -->
+
+   <!-- back to top start -->
+   <div class="back-to-top-wrapper">
+      <button id="back_to_top" type="button" class="back-to-top-btn">
+         <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11 6L6 1L1 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+         </svg>
+      </button>
+   </div>
+   <!-- back to top end -->
+
+   <!-- tp-offcanvas start -->
+   <div class="tp-offcanvas">
+      <div class="tp-offcanvas-header mb-30">
+         <div class="tp-offcanvas-logo">
+            <a href="../index.html"><img data-width="108" src="../assets/img/logo/logo.png" alt="logo"></a>
+         </div>
+         <div class="tp-offcanvas-close">
+            <button class="tp-offcanvas-close-button"><i class="fal fa-times"></i></button>
+         </div>
+      </div>
+      <div class="tp-header-search p-relative mb-30">
+         <form action="tour-grid-sidebar.html">
+            <input class="tp-input" type="text" placeholder="Search destinations...">
+            <button class="tp-header-search-btn" type="submit">
+               <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5.64267 10.7857C8.48288 10.7857 10.7853 8.48318 10.7853 5.64286C10.7853 2.80254 8.48288 0.5 5.64267 0.5C2.80245 0.5 0.5 2.80254 0.5 5.64286C0.5 8.48318 2.80245 10.7857 5.64267 10.7857Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M12.5 12.5L9.92871 9.92857" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+               </svg>
+            </button>
+         </form>
+      </div>
+      <div class="tp-offcanvas-menu mb-50">
+         <nav></nav>
+      </div>
+      <div class="tp-offcanvas-content mb-40">
+         <h3 class="tp-offcanvas-title">Guide with TripInBlink</h3>
+         <p>Turn your local passion into income. Welcome travelers from around the world and share your city's magic.</p>
+      </div>
+      <div class="tp-offcanvas-gallery mb-50">
+         <a class="popup-image" href="../assets/img/tour/01.jpg"><img src="../assets/img/tour/01.jpg" alt="tour"></a>
+         <a class="popup-image" href="../assets/img/tour/02.jpg"><img src="../assets/img/tour/02.jpg" alt="tour"></a>
+         <a class="popup-image" href="../assets/img/tour/03.jpg"><img src="../assets/img/tour/03.jpg" alt="tour"></a>
+         <a class="popup-image" href="../assets/img/tour/04.jpg"><img src="../assets/img/tour/04.jpg" alt="tour"></a>
+      </div>
+      <div class="tp-offcanvas-info mb-50">
+         <h3 class="tp-offcanvas-title">Contact Support</h3>
+         <span><a href="tel:+0012345688">+00 (123) 45688</a></span>
+         <span><a href="mailto:support@tripinblink.com">support@tripinblink.com</a></span>
+         <span><a href="#">742 Evergreen Terrace, New York</a></span>
+      </div>
+      <div class="tp-offcanvas-social">
+         <h3 class="tp-offcanvas-title">Follow Us</h3>
+         <a href="#"><i class="fab fa-facebook-f"></i></a>
+         <a href="#"><i class="fab fa-twitter"></i></a>
+         <a href="#"><i class="fab fa-instagram"></i></a>
+         <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+   </div>
+   <div class="tp-offcanvas-overlay"></div>
+   <!-- tp-offcanvas end -->
+
+   <!-- Header start -->
+   <header class="tp-header-height">
+      <div class="tp-header-top-area tp-header-top-spacing d-none d-md-block">
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="col-lg-4 col-md-6">
+                  <div class="tp-header-top-info">
+                     <ul>
+                        <li><a href="tel:+0012345688">+00 (123) 45688</a></li>
+                        <li><a href="mailto:support@tripinblink.com">support@tripinblink.com</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-lg-4 d-none d-lg-block">
+                  <div class="tp-header-top-discount text-center">
+                     <p class="mb-0"><span>Save 50%</span> on Multi - day tours</p>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+                  <div class="tp-header-top-switcher-wrap d-flex justify-content-end">
+                     <div class="tp-header-top-menu-item tp-header-top-lang">
+                        <span class="tp-header-top-lang-toggle" id="tp-header-top-lang-toggle">English</span>
+                        <ul>
+                           <li><a href="#">Spanish</a></li>
+                           <li><a href="#">French</a></li>
+                           <li><a href="#">German</a></li>
+                        </ul>
+                     </div>
+                     <div class="tp-header-top-menu-item tp-header-top-currency ml-30">
+                        <span class="tp-header-top-currency-toggle" id="tp-header-top-currency-toggle">
+                           <img src="../assets/img/flag/01.png" alt=""> USD
+                        </span>
+                        <ul>
+                           <li><a href="#"><img src="../assets/img/flag/01.png" alt=""> USD </a></li>
+                           <li><a href="#"><img src="../assets/img/flag/03.png" alt=""> EUR </a></li>
+                           <li><a href="#"><img src="../assets/img/flag/08.png" alt=""> INR </a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div id="header-sticky" class="tp-header-area tp-header-four tp-header-lg-ptb tp-header-blur p-relative">
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="col-xl-2 col-6">
+                  <div class="tp-header-logo">
+                     <a href="../index.html">
+                        <img class="logo-1" width="115" src="../assets/img/logo/logo-white.png" alt="logo">
+                        <img class="d-none logo-2" width="115" src="../assets/img/logo/logo.png" alt="logo">
+                     </a>
+                  </div>
+               </div>
+               <div class="col-xl-6 d-none d-xl-block">
+                  <div class="tp-main-menu tp-menu-dropdown text-end mr-50">
+                     <nav class="tp-mobile-menu-active">
+                        <ul>
+                           <li><a href="../index.html">Home</a></li>
+                           <li><a href="../about.html">About</a></li>
+                           <li class="has-dropdown position-inherit">
+                              <a href="tour-grid-sidebar.html">Destinations</a>
+                              <div class="sub-menu tp-megamenu-wrapper tp-megamenu-center">
+                                 <div class="row">
+                                    <div class="col-xl-4">
+                                       <div class="tp-megamenu-list">
+                                          <ul>
+                                             <li>
+                                                <a href="tour-details.html" class="d-flex align-items-center gap-2">
+                                                   <div class="tp-megamenu-list-thumb">
+                                                      <img src="../assets/img/menu/01.png" alt="des">
+                                                   </div>
+                                                   <div class="tp-megamenu-list-content">
+                                                      <span class="tp-megamenu-list-subtitle">Things to do in</span>
+                                                      <span class="tp-megamenu-list-title">Osaka</span>
+                                                   </div>
+                                                </a>
+                                             </li>
+                                             <li>
+                                                <a href="tour-details.html" class="d-flex align-items-center gap-2">
+                                                   <div class="tp-megamenu-list-thumb">
+                                                      <img src="../assets/img/menu/02.png" alt="des">
+                                                   </div>
+                                                   <div class="tp-megamenu-list-content">
+                                                      <span class="tp-megamenu-list-subtitle">Things to do in</span>
+                                                      <span class="tp-megamenu-list-title">Rome</span>
+                                                   </div>
+                                                </a>
+                                             </li>
+                                             <li>
+                                                <a href="tour-details.html" class="d-flex align-items-center gap-2">
+                                                   <div class="tp-megamenu-list-thumb">
+                                                      <img src="../assets/img/menu/03.png" alt="des">
+                                                   </div>
+                                                   <div class="tp-megamenu-list-content">
+                                                      <span class="tp-megamenu-list-subtitle">Things to do in</span>
+                                                      <span class="tp-megamenu-list-title">Paris</span>
+                                                   </div>
+                                                </a>
+                                             </li>
+                                          </ul>
+                                       </div>
+                                    </div>
+                                    <div class="col-xl-4">
+                                       <div class="tp-megamenu-list">
+                                          <ul>
+                                             <li>
+                                                <a href="tour-details.html" class="d-flex align-items-center gap-2">
+                                                   <div class="tp-megamenu-list-thumb">
+                                                      <img src="../assets/img/menu/04.png" alt="des">
+                                                   </div>
+                                                   <div class="tp-megamenu-list-content">
+                                                      <span class="tp-megamenu-list-subtitle">Things to do in</span>
+                                                      <span class="tp-megamenu-list-title">London</span>
+                                                   </div>
+                                                </a>
+                                             </li>
+                                             <li>
+                                                <a href="tour-details.html" class="d-flex align-items-center gap-2">
+                                                   <div class="tp-megamenu-list-thumb">
+                                                      <img src="../assets/img/menu/05.png" alt="des">
+                                                   </div>
+                                                   <div class="tp-megamenu-list-content">
+                                                      <span class="tp-megamenu-list-subtitle">Things to do in</span>
+                                                      <span class="tp-megamenu-list-title">Greece</span>
+                                                   </div>
+                                                </a>
+                                             </li>
+                                             <li>
+                                                <a href="tour-details.html" class="d-flex align-items-center gap-2">
+                                                   <div class="tp-megamenu-list-thumb">
+                                                      <img src="../assets/img/menu/06.png" alt="des">
+                                                   </div>
+                                                   <div class="tp-megamenu-list-content">
+                                                      <span class="tp-megamenu-list-subtitle">Things to do in</span>
+                                                      <span class="tp-megamenu-list-title">Turkey</span>
+                                                   </div>
+                                                </a>
+                                             </li>
+                                          </ul>
+                                       </div>
+                                    </div>
+                                    <div class="col-xl-4">
+                                       <div class="tp-megamenu-list">
+                                          <ul>
+                                             <li>
+                                                <a href="tour-details.html" class="d-flex align-items-center gap-2">
+                                                   <div class="tp-megamenu-list-thumb">
+                                                      <img src="../assets/img/destination/six/thumb.jpg" alt="des">
+                                                   </div>
+                                                   <div class="tp-megamenu-list-content">
+                                                      <span class="tp-megamenu-list-subtitle">Things to do in</span>
+                                                      <span class="tp-megamenu-list-title">Maldives</span>
+                                                   </div>
+                                                </a>
+                                             </li>
+                                             <li>
+                                                <a href="tour-details.html" class="d-flex align-items-center gap-2">
+                                                   <div class="tp-megamenu-list-thumb">
+                                                      <img src="../assets/img/destination/six/thumb-2.jpg" alt="des">
+                                                   </div>
+                                                   <div class="tp-megamenu-list-content">
+                                                      <span class="tp-megamenu-list-subtitle">Things to do in</span>
+                                                      <span class="tp-megamenu-list-title">Canada</span>
+                                                   </div>
+                                                </a>
+                                             </li>
+                                             <li>
+                                                <a href="tour-details.html" class="d-flex align-items-center gap-2">
+                                                   <div class="tp-megamenu-list-thumb">
+                                                      <img src="../assets/img/destination/six/thumb-3.jpg" alt="des">
+                                                   </div>
+                                                   <div class="tp-megamenu-list-content">
+                                                      <span class="tp-megamenu-list-subtitle">Things to do in</span>
+                                                      <span class="tp-megamenu-list-title">Indonesia</span>
+                                                   </div>
+                                                </a>
+                                             </li>
+                                          </ul>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                           <li><a href="../contact.html">Contact Us</a></li>
+                           <li><a href="../blog.html">Blog</a></li>
+                           <li><a href="../plan-my-trip.html">Plan My Trip</a></li>
+                        </ul>
+                     </nav>
+                  </div>
+               </div>
+               <div class="col-xl-4 col-6">
+                  <div class="tp-header-option tp-header-two d-flex align-items-center justify-content-end">
+                     <div class="tp-header-contact ml-30 d-none d-md-block">
+                        <a href="../plan-my-trip.html">Book a Tour</a>
+                     </div>
+                     <div class="tp-header-top-menu-item tp-header-login ml-20 d-none d-xl-block">
+                        <span class="tp-header-login-btn" id="tp-header-login-btn">
+                           <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M6.84473 8.18158C10.3622 8.18158 13.3237 10.6105 13.5391 13.7441L13.5361 13.8535C13.5034 14.097 13.2968 14.2697 13.0654 14.289L13.0645 14.29C12.7649 14.313 12.5416 14.0808 12.5195 13.8163V13.8144C12.3342 11.2383 9.85653 9.20209 6.84473 9.20209C3.81703 9.20222 1.34055 11.2545 1.1709 13.83V13.832C1.15142 14.0657 0.978315 14.2535 0.763672 14.2968L0.668945 14.3056H0.625V14.3046C0.335307 14.282 0.128516 14.0353 0.151367 13.7597C0.366927 10.6106 3.32725 8.18171 6.84473 8.18158Z" fill="currentColor" stroke="currentColor" stroke-width="0.3" />
+                              <path d="M6.84473 0.149597C8.94337 0.149833 10.6426 1.84973 10.6426 3.94843C10.6423 6.04692 8.94322 7.74604 6.84473 7.74628C4.74603 7.74628 3.04613 6.04707 3.0459 3.94843C3.0459 1.84958 4.74588 0.149597 6.84473 0.149597ZM6.84473 1.18573C5.32757 1.18573 4.08203 2.43127 4.08203 3.94843C4.08227 5.46538 5.32772 6.71014 6.84473 6.71014C8.36154 6.7099 9.60621 5.46524 9.60645 3.94843C9.60645 2.43141 8.36169 1.18597 6.84473 1.18573Z" fill="currentColor" stroke="currentColor" stroke-width="0.3" />
+                           </svg>
+                        </span>
+                        <ul>
+                           <li><a href="../login.html"><i class="icon far fa-user"></i> Login</a></li>
+                           <li><a href="../register.html"><i class="icon fas fa-user-plus"></i> Register</a></li>
+                           <li><a href="../register-guide.html"><i class="icon fas fa-id-badge"></i> Join as Guide</a></li>
+                        </ul>
+                     </div>
+                     <div class="tp-header-toogle-wrapper d-xl-none ml-10">
+                        <button class="tp-header-toogle">
+                           <span></span>
+                           <span></span>
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <!-- Header end -->
+
+   <!-- MAIN CONTENT START -->
+   <main class="registration-landing">
+      <!-- 1. Hero Section -->
+      <section class="reg-hero text-white">
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="col-lg-7 mb-5 mb-lg-0 pr-lg-5">
+                  <span class="reg-eyebrow">Become a Local Expert</span>
+                  <h1 class="reg-hero-title mb-3">Guide Travelers in Your City.<br>Earn Doing What You Love.</h1>
+                  <p class="reg-hero-sub mb-4">Join our global network of local guides, share your city's secrets, and run your own independent tour business on your terms.</p>
+                  <div class="hero-cta-group d-flex gap-3 flex-wrap">
+                     <a href="#registerFormSection" class="btn btn-primary-lg">
+                        <span>Apply Now</span>
+                        <i class="ri-arrow-right-line"></i>
+                     </a>
+                     <a href="#howItWorks" class="btn btn-outline-white">
+                        <span>Learn How It Works</span>
+                        <i class="ri-information-line"></i>
+                     </a>
+                  </div>
+               </div>
+               <div class="col-lg-5">
+                  <div class="hero-image-card">
+                     <img src="../assets/img/hero/guide_hero_graphics.png" alt="Guide with Tourists" class="img-fluid">
+                     <div class="floating-badge shadow p-3 d-flex align-items-center gap-3">
+                        <div class="badge-icon-bg">
+                           <i class="ri-wallet-3-line"></i>
+                        </div>
+                        <div>
+                           <span class="badge-sub">Average Earnings</span>
+                           <h6 class="badge-main">$2,400 / mo</h6>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- 2. Floating Stats Bar -->
+      <div class="reg-stats-bar-wrapper">
+         <div class="container">
+            <div class="reg-stats-bar-capsule shadow-lg">
+               <div class="row align-items-center g-0">
+                  <div class="col-6 col-md-3 stat-item">
+                     <div class="stat-icon-box text-coral">
+                        <i class="ri-user-star-line"></i>
+                     </div>
+                     <div>
+                        <h3 class="stat-number">10k+</h3>
+                        <p class="stat-desc">Certified Guides</p>
+                     </div>
+                  </div>
+                  <div class="col-6 col-md-3 stat-item">
+                     <div class="stat-icon-box text-warning">
+                        <i class="ri-star-fill"></i>
+                     </div>
+                     <div>
+                        <h3 class="stat-number">4.9/5</h3>
+                        <p class="stat-desc">Traveler Rating</p>
+                     </div>
+                  </div>
+                  <div class="col-6 col-md-3 stat-item">
+                     <div class="stat-icon-box text-info">
+                        <i class="ri-global-line"></i>
+                     </div>
+                     <div>
+                        <h3 class="stat-number">120+</h3>
+                        <p class="stat-desc">Countries Present</p>
+                     </div>
+                  </div>
+                  <div class="col-6 col-md-3 stat-item">
+                     <div class="stat-icon-box text-success">
+                        <i class="ri-shield-check-line"></i>
+                     </div>
+                     <div>
+                        <h3 class="stat-number">100%</h3>
+                        <p class="stat-desc">Secure Payouts</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <!-- 3. Partnership Benefits Section -->
+      <section class="reg-benefits" id="benefits">
+         <div class="container">
+            <div class="section-title text-center mb-50">
+               <span class="reg-section-subtitle">Partnership Benefits</span>
+               <h2 class="reg-section-title">Why Guides Choose TripInBlink</h2>
+            </div>
+            <div class="row g-4">
+               <div class="col-md-6 col-lg-3">
+                  <div class="benefit-card h-100">
+                     <div class="benefit-icon-box coral mb-4">
+                        <i class="ri-calendar-line"></i>
+                     </div>
+                     <h4 class="card-title">Total Flexibility</h4>
+                     <p class="card-text">You are the boss. Design your own itineraries, choose your hours, and guide only when it fits your lifestyle.</p>
+                  </div>
+               </div>
+               <div class="col-md-6 col-lg-3">
+                  <div class="benefit-card h-100">
+                     <div class="benefit-icon-box cyan mb-4">
+                        <i class="ri-price-tag-3-line"></i>
+                     </div>
+                     <h4 class="card-title">Set Your Pricing</h4>
+                     <p class="card-text">Set your own rates and keep the lion's share of your earnings. No hidden fees or unexpected commission deductions.</p>
+                  </div>
+               </div>
+               <div class="col-md-6 col-lg-3">
+                  <div class="benefit-card h-100">
+                     <div class="benefit-icon-box amber mb-4">
+                        <i class="ri-global-line"></i>
+                     </div>
+                     <h4 class="card-title">Global Marketing</h4>
+                     <p class="card-text">We handle the digital marketing, SEO, and global advertising so you get constant bookings from international travelers.</p>
+                  </div>
+               </div>
+               <div class="col-md-6 col-lg-3">
+                  <div class="benefit-card h-100">
+                     <div class="benefit-icon-box green mb-4">
+                        <i class="ri-shield-check-line"></i>
+                     </div>
+                     <h4 class="card-title">Guaranteed Payouts</h4>
+                     <p class="card-text">No chasing customers for money. Payouts are safely deposited weekly directly to your local bank account.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- 4. How It Works Timeline Section -->
+      <section class="reg-how-it-works" id="howItWorks">
+         <div class="container">
+            <div class="section-title text-center mb-50">
+               <span class="reg-section-subtitle">Quick Process</span>
+               <h2 class="reg-section-title">How to Become a Certified Guide</h2>
+            </div>
+            <div class="row g-4 position-relative timeline-container">
+               <div class="col-md-3 text-center timeline-item">
+                  <div class="step-number mb-3">1</div>
+                  <h4 class="step-title">Apply Online</h4>
+                  <p class="step-text">Fill out our quick registration form. It takes less than 5 minutes to submit your details.</p>
+               </div>
+               <div class="col-md-3 text-center timeline-item">
+                  <div class="step-number mb-3">2</div>
+                  <h4 class="step-title">Quick Screening</h4>
+                  <p class="step-text">Our team reviews your application and conducts a brief call to align on guiding standards.</p>
+               </div>
+               <div class="col-md-3 text-center timeline-item">
+                  <div class="step-number mb-3">3</div>
+                  <h4 class="step-title">List Your Tours</h4>
+                  <p class="step-text">Create and publish your local tour listings with our easy-to-use operator dashboard.</p>
+               </div>
+               <div class="col-md-3 text-center timeline-item">
+                  <div class="step-number mb-3">4</div>
+                  <h4 class="step-title">Start Earning</h4>
+                  <p class="step-text">Welcome tourists, show them your city's magic, and receive secure weekly payouts.</p>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- 5. Ratings & Reviews Section -->
+      <section class="reg-ratings-section">
+         <div class="container">
+            <div class="section-title text-center mb-50">
+               <span class="reg-section-subtitle">Ratings & Reviews</span>
+               <h2 class="reg-section-title">Trusted by Thousands of Travelers & Guides</h2>
+            </div>
+            
+            <div class="row g-4 align-items-stretch mb-4">
+               <!-- Summary Card -->
+               <div class="col-lg-4">
+                  <div class="rating-summary-card text-center h-100 d-flex flex-column justify-content-center">
+                     <h3 class="display-score mb-2">4.9</h3>
+                     <div class="ratings stars-gold mb-2">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                     </div>
+                     <p class="text-muted fw-bold mb-3">Excellent Trust Score</p>
+                     <p class="text-14 text-muted mb-4">Based on over <strong>12,450+</strong> verified guide & traveler reviews worldwide.</p>
+                     <div class="d-flex justify-content-center">
+                        <span class="verified-badge"><i class="ri-shield-check-line mr-1"></i> 100% Verified Reviews</span>
+                     </div>
+                  </div>
+               </div>
+               
+               <!-- Individual Reviews Grid -->
+               <div class="col-lg-8">
+                  <div class="row g-4">
+                     <!-- Review 1 -->
+                     <div class="col-md-6">
+                        <div class="review-item-card h-100 d-flex flex-column justify-content-between">
+                           <div>
+                              <div class="d-flex justify-content-between align-items-center mb-3">
+                                 <div class="ratings stars-gold">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                 </div>
+                                 <span class="text-muted text-12">2 days ago</span>
+                              </div>
+                              <h5 class="review-title mb-2">"Best platform for local guides"</h5>
+                              <p class="review-comment text-muted mb-3">Hosting tours here has doubled my income. Payouts are weekly and the platform handles all transaction support automatically.</p>
+                           </div>
+                           <div class="review-author d-flex align-items-center mt-3">
+                              <img src="../assets/img/testimonial/user-1.jpeg" alt="Reviewer" class="rounded-circle border" style="width: 38px; height: 38px; object-fit: cover; margin-right: 12px;">
+                              <div class="author-info">
+                                 <span class="author-name d-block">Carlos M.</span>
+                                 <span class="author-meta">Guide in Madrid</span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Review 2 -->
+                     <div class="col-md-6">
+                        <div class="review-item-card h-100 d-flex flex-column justify-content-between">
+                           <div>
+                              <div class="d-flex justify-content-between align-items-center mb-3">
+                                 <div class="ratings stars-gold">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                 </div>
+                                 <span class="text-muted text-12">1 week ago</span>
+                              </div>
+                              <h5 class="review-title mb-2">"Incredibly simple to list"</h5>
+                              <p class="review-comment text-muted mb-3">Creating local excursions is highly intuitive. The portal setup took less than a day, and we've already received dozens of active bookings.</p>
+                           </div>
+                           <div class="review-author d-flex align-items-center mt-3">
+                              <img src="../assets/img/testimonial/user-3.png" alt="Reviewer" class="rounded-circle border" style="width: 38px; height: 38px; object-fit: cover; margin-right: 12px;">
+                              <div class="author-info">
+                                 <span class="author-name d-block">Sarah J.</span>
+                                 <span class="author-meta">Operator in London</span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Review 3 -->
+                     <div class="col-md-6">
+                        <div class="review-item-card h-100 d-flex flex-column justify-content-between">
+                           <div>
+                              <div class="d-flex justify-content-between align-items-center mb-3">
+                                 <div class="ratings stars-gold">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                 </div>
+                                 <span class="text-muted text-12">3 days ago</span>
+                              </div>
+                              <h5 class="review-title mb-2">"Seamless weekly deposits"</h5>
+                              <p class="review-comment text-muted mb-3">I appreciate that there are no hidden subscription charges. They only charge when I sell. The earnings go straight into my bank account every Friday.</p>
+                           </div>
+                           <div class="review-author d-flex align-items-center mt-3">
+                              <img src="../assets/img/testimonial/user-2.png" alt="Reviewer" class="rounded-circle border" style="width: 38px; height: 38px; object-fit: cover; margin-right: 12px;">
+                              <div class="author-info">
+                                 <span class="author-name d-block">Elena R.</span>
+                                 <span class="author-meta">Guide in Rome</span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Review 4 -->
+                     <div class="col-md-6">
+                        <div class="review-item-card h-100 d-flex flex-column justify-content-between">
+                           <div>
+                              <div class="d-flex justify-content-between align-items-center mb-3">
+                                 <div class="ratings stars-gold">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                 </div>
+                                 <span class="text-muted text-12">2 weeks ago</span>
+                              </div>
+                              <h5 class="review-title mb-2">"Excellent partner support"</h5>
+                              <p class="review-comment text-muted mb-3">Whenever we have technical issues or booking updates, the merchant support responds within minutes. Unbelievable response speed.</p>
+                           </div>
+                           <div class="review-author d-flex align-items-center mt-3">
+                              <img src="../assets/img/testimonial/user-4.jpeg" alt="Reviewer" class="rounded-circle border" style="width: 38px; height: 38px; object-fit: cover; margin-right: 12px;">
+                              <div class="author-info">
+                                 <span class="author-name d-block">Marcus K.</span>
+                                 <span class="author-meta">Operator in Berlin</span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- 6. Guide Registration Form Section -->
+      <section class="reg-form-section" id="registerFormSection">
+         <div class="container">
+            <div class="row justify-content-center">
+               <div class="col-lg-8">
+                  <div class="login-card">
+                     <div class="form-header text-center mb-4">
+                        <span class="reg-section-subtitle">Join Our Network</span>
+                        <h2 class="mb-2">Start Your Application</h2>
+                        <p>Fill out the basic information below to register as a local guide.</p>
+                     </div>
+                     
+                     <form action="#" method="POST" id="guideRegisterForm" enctype="multipart/form-data">
+                        <div class="row">
+                           <div class="col-sm-6">
+                              <div class="contact-form">
+                                 <label class="contact-label">First Name <span class="text-danger">*</span></label>
+                                 <input class="form-control contact-input" type="text" name="first_name" id="guideFirstName" placeholder="John" required>
+                              </div>
+                           </div>
+                           <div class="col-sm-6">
+                              <div class="contact-form">
+                                 <label class="contact-label">Last Name <span class="text-danger">*</span></label>
+                                 <input class="form-control contact-input" type="text" name="last_name" id="guideLastName" placeholder="Doe" required>
+                              </div>
+                           </div>
+                        </div>
+                        
+                        <div class="contact-form">
+                           <label class="contact-label">Email Address <span class="text-danger">*</span></label>
+                           <input class="form-control contact-input" type="email" name="email" id="guideEmail" placeholder="name@company.com" required>
+                        </div>
+                        
+                        <div class="row">
+                           <div class="col-sm-6">
+                              <div class="contact-form">
+                                 <label class="contact-label">Password <span class="text-danger">*</span></label>
+                                 <div class="position-relative">
+                                    <input type="password" class="form-control contact-input password-input" name="password" id="txtPasswordGuide" placeholder="Create strong password" required>
+                                    <i class="toggle-password ri-eye-line"></i>
+                                 </div>
+                                 
+                                 <!-- Dynamic Strength Checklist -->
+                                 <div class="password-strength-checker mt-2" id="strength-checker-guide" style="display: none;">
+                                    <div class="strength-meter">
+                                       <div class="strength-progress" id="strength-progress-guide"></div>
+                                    </div>
+                                    <p class="mb-1 text-muted fw-bold" style="font-size: 11px;">Password Requirements:</p>
+                                    <ul class="list-unstyled mb-0 d-flex flex-column gap-1" style="padding-left: 0;">
+                                       <li class="req-length text-muted" id="req-length-guide"><i class="ri-checkbox-blank-circle-line mr-1"></i> Min 8 characters</li>
+                                       <li class="req-upper text-muted" id="req-upper-guide"><i class="ri-checkbox-blank-circle-line mr-1"></i> 1 uppercase letter (A-Z)</li>
+                                       <li class="req-lower text-muted" id="req-lower-guide"><i class="ri-checkbox-blank-circle-line mr-1"></i> 1 lowercase letter (a-z)</li>
+                                       <li class="req-number text-muted" id="req-number-guide"><i class="ri-checkbox-blank-circle-line mr-1"></i> 1 number (0-9)</li>
+                                       <li class="req-special text-muted" id="req-special-guide"><i class="ri-checkbox-blank-circle-line mr-1"></i> 1 special char (@$!%*?&#)</li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-sm-6">
+                              <div class="contact-form">
+                                 <label class="contact-label">Repeat Password <span class="text-danger">*</span></label>
+                                 <div class="position-relative">
+                                    <input type="password" class="form-control contact-input password-input" name="password_confirmation" id="txtConfirmPasswordGuide" placeholder="Repeat password" required>
+                                    <i class="toggle-password ri-eye-line"></i>
+                                 </div>
+                                 <div id="password-match-msg-guide" class="mt-2 text-12 fw-bold" style="display: none;"></div>
+                              </div>
+                           </div>
+                        </div>
+                        
+                        <div class="row">
+                           <div class="col-sm-6">
+                              <div class="contact-form">
+                                 <label class="contact-label">Country <span class="text-danger">*</span></label>
+                                 <select class="form-select form-control contact-input" name="country" id="guideCountry" required>
+                                    <option value="" disabled selected>Select country</option>
+                                    <option value="US">United States (+1)</option>
+                                    <option value="GB">United Kingdom (+44)</option>
+                                    <option value="IN">India (+91)</option>
+                                    <option value="ES">Spain (+34)</option>
+                                    <option value="IT">Italy (+39)</option>
+                                    <option value="FR">France (+33)</option>
+                                    <option value="DE">Germany (+49)</option>
+                                    <option value="JP">Japan (+81)</option>
+                                    <option value="AU">Australia (+61)</option>
+                                    <option value="CA">Canada (+1)</option>
+                                    <option value="BR">Brazil (+55)</option>
+                                    <option value="MX">Mexico (+52)</option>
+                                    <option value="AE">United Arab Emirates (+971)</option>
+                                    <option value="SG">Singapore (+65)</option>
+                                    <option value="TH">Thailand (+66)</option>
+                                    <option value="NL">Netherlands (+31)</option>
+                                    <option value="CH">Switzerland (+41)</option>
+                                    <option value="GR">Greece (+30)</option>
+                                    <option value="TR">Turkey (+90)</option>
+                                    <option value="ID">Indonesia (+62)</option>
+                                    <option value="MY">Malaysia (+60)</option>
+                                    <option value="VN">Vietnam (+84)</option>
+                                    <option value="ZA">South Africa (+27)</option>
+                                    <option value="EG">Egypt (+20)</option>
+                                    <option value="NZ">New Zealand (+64)</option>
+                                    <option value="AR">Argentina (+54)</option>
+                                    <option value="PT">Portugal (+351)</option>
+                                    <option value="AT">Austria (+43)</option>
+                                    <option value="BE">Belgium (+32)</option>
+                                    <option value="SE">Sweden (+46)</option>
+                                    <option value="NO">Norway (+47)</option>
+                                    <option value="OTHER">Other Countries</option>
+                                 </select>
+                              </div>
+                           </div>
+                           <div class="col-sm-6">
+                              <div class="contact-form">
+                                 <label class="contact-label">Phone Number <span class="text-danger">*</span></label>
+                                 <input class="form-control contact-input" type="tel" name="phone" id="guidePhone" placeholder="1234567890" required>
+                              </div>
+                           </div>
+                        </div>
+                        
+                        <div class="form-check mb-3 d-flex align-items-start gap-2">
+                           <input class="form-check-input flex-shrink-0" type="checkbox" id="termsCheck" required style="width: 18px; height: 18px; margin-top: 4px;">
+                           <label class="form-check-label text-14" for="termsCheck" style="cursor: pointer; line-height: 1.4; color: var(--tp-grey-1);">
+                              I have read and accept the <a href="#" class="text-primary fw-bold" style="color: var(--tp-theme-1) !important;">Terms and Conditions</a> & <a href="#" class="text-primary fw-bold" style="color: var(--tp-theme-1) !important;">Privacy Policy</a>
+                           </label>
+                        </div>
+                        
+                        <div class="form-check mb-4 d-flex align-items-start gap-2">
+                           <input class="form-check-input flex-shrink-0" type="checkbox" id="marketingCheck" style="width: 18px; height: 18px; margin-top: 4px;">
+                           <label class="form-check-label text-14" for="marketingCheck" style="cursor: pointer; line-height: 1.4; color: var(--tp-grey-1);">
+                              I agree to receive updates, news and special offers from TripInBlink.
+                           </label>
+                        </div>
+                        
+                        <button type="button" class="btn-primary-fill w-100" id="btnOpenProfileModal">
+                           <span class="d-flex justify-content-center align-items-center gap-2">
+                              <span>Continue to Profile Setup</span>
+                              <i class="ri-arrow-right-line"></i>
+                           </span>
+                        </button>
+
+                        <!-- Profile Building Modal Popup -->
+                        <div class="modal fade profile-modal" id="guideProfileModal" tabindex="-1" aria-hidden="true" data-bs-backdrop="static">
+                           <div class="modal-dialog modal-dialog-centered modal-lg">
+                              <div class="modal-content">
+                                 <div class="modal-header">
+                                    <h5 class="modal-title">
+                                       <i class="ri-user-star-line"></i> Build Your Guide Profile
+                                    </h5>
+                                    <button type="button" class="btn-close-custom" data-bs-dismiss="modal" aria-label="Close">
+                                       <i class="ri-close-line"></i>
+                                    </button>
+                                 </div>
+                                 <div class="modal-body">
+                                    <div class="alert p-3 mb-4 rounded-3 d-flex align-items-center gap-3" style="background-color: #fff4f2; border: 1px solid #fed7d0; color: #a32207;">
+                                       <i class="ri-information-line" style="font-size: 24px; color: var(--tp-theme-1);"></i>
+                                       <span class="text-13 fw-semibold">Completing these details helps travelers and admins discover your guiding profile easily.</span>
+                                    </div>
+
+                                    <!-- Languages Spoken -->
+                                    <div class="mb-4">
+                                       <label class="form-label-custom">Languages Spoken (Select multiple)</label>
+                                       <select class="form-select select2-languages" name="languages[]" id="guideLanguages" multiple="multiple" style="width: 100%;">
+                                          <option value="English" selected>English</option>
+                                          <option value="Spanish">Spanish</option>
+                                          <option value="French">French</option>
+                                          <option value="German">German</option>
+                                          <option value="Italian">Italian</option>
+                                          <option value="Hindi">Hindi</option>
+                                          <option value="Japanese">Japanese</option>
+                                          <option value="Chinese (Mandarin)">Chinese (Mandarin)</option>
+                                          <option value="Arabic">Arabic</option>
+                                          <option value="Russian">Russian</option>
+                                          <option value="Portuguese">Portuguese</option>
+                                          <option value="Dutch">Dutch</option>
+                                          <option value="Korean">Korean</option>
+                                          <option value="Turkish">Turkish</option>
+                                          <option value="Greek">Greek</option>
+                                       </select>
+                                    </div>
+
+                                    <!-- Guiding Areas -->
+                                    <div class="row">
+                                       <div class="col-sm-6">
+                                          <div class="mb-4">
+                                             <label class="form-label-custom">Primary Guiding City / Area</label>
+                                             <select class="form-select form-control-custom" name="main_guiding_area" id="guideMainArea" style="width: 100%;">
+                                                <option value="" disabled selected>Select primary city</option>
+                                                <option value="Paris, France">Paris, France</option>
+                                                <option value="Rome, Italy">Rome, Italy</option>
+                                                <option value="London, UK">London, UK</option>
+                                                <option value="Madrid, Spain">Madrid, Spain</option>
+                                                <option value="Barcelona, Spain">Barcelona, Spain</option>
+                                                <option value="Tokyo, Japan">Tokyo, Japan</option>
+                                                <option value="New York, USA">New York, USA</option>
+                                                <option value="Dubai, UAE">Dubai, UAE</option>
+                                                <option value="Bangkok, Thailand">Bangkok, Thailand</option>
+                                                <option value="Delhi, India">Delhi, India</option>
+                                                <option value="Amsterdam, Netherlands">Amsterdam, Netherlands</option>
+                                                <option value="Berlin, Germany">Berlin, Germany</option>
+                                             </select>
+                                          </div>
+                                       </div>
+                                       <div class="col-sm-6">
+                                          <div class="mb-4">
+                                             <label class="form-label-custom">Other Nearby Destinations</label>
+                                             <select class="form-select form-control-custom" name="other_guiding_areas[]" id="guideOtherAreas" multiple="multiple" style="width: 100%;">
+                                                <option value="Florence, Italy">Florence, Italy</option>
+                                                <option value="Venice, Italy">Venice, Italy</option>
+                                                <option value="Versailles, France">Versailles, France</option>
+                                                <option value="Toledo, Spain">Toledo, Spain</option>
+                                                <option value="Oxford, UK">Oxford, UK</option>
+                                                <option value="Kyoto, Japan">Kyoto, Japan</option>
+                                                <option value="Agra, India">Agra, India</option>
+                                             </select>
+                                          </div>
+                                       </div>
+                                    </div>
+
+                                    <!-- Experience & License -->
+                                    <div class="row">
+                                       <div class="col-sm-6">
+                                          <div class="mb-4">
+                                             <label class="form-label-custom">Years of Guiding Experience</label>
+                                             <select class="form-select form-control-custom" name="experience" required>
+                                                <option value="" selected disabled>Select experience level</option>
+                                                <option value="New / Less than 1 year">New / Less than 1 year</option>
+                                                <option value="1 - 3 Years">1 - 3 Years</option>
+                                                <option value="3 - 5 Years">3 - 5 Years</option>
+                                                <option value="5 - 10 Years">5 - 10 Years</option>
+                                                <option value="10+ Years">10+ Years</option>
+                                             </select>
+                                          </div>
+                                       </div>
+                                       <div class="col-sm-6">
+                                          <div class="mb-4">
+                                             <label class="form-label-custom">Upload Guide License / Badge <span class="text-muted fw-normal">(Image/PDF)</span></label>
+                                             <div class="custom-file-dropzone" id="guideDropzone" onclick="document.getElementById('guideLicenseInput').click();">
+                                                <input type="file" name="license" id="guideLicenseInput" accept="image/*,.pdf" style="display: none;" onchange="handleFileSelected(this, 'guideDropzone', 'guideFileSubtitle')">
+                                                <div class="upload-icon-circle">
+                                                   <i class="ri-upload-cloud-2-line"></i>
+                                                </div>
+                                                <div class="dropzone-title">Click to upload document</div>
+                                                <div class="dropzone-subtitle" id="guideFileSubtitle">PNG, JPG or PDF (max. 10MB)</div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+
+                                    <!-- Tour Specializations & Skills -->
+                                    <div class="mb-4">
+                                       <label class="form-label-custom">Tour Specializations & Skills</label>
+                                       <div class="row g-2 pt-1">
+                                          <div class="col-6 col-sm-6">
+                                             <label class="skill-card-checkbox">
+                                                <input type="checkbox" name="skills[]" value="Historical & Heritage" checked>
+                                                <div class="skill-card-content">
+                                                   <div class="skill-check-icon"><i class="ri-check-line"></i></div>
+                                                   <span>Historical & Heritage</span>
+                                                </div>
+                                             </label>
+                                          </div>
+                                          <div class="col-6 col-sm-6">
+                                             <label class="skill-card-checkbox">
+                                                <input type="checkbox" name="skills[]" value="Food & Culinary">
+                                                <div class="skill-card-content">
+                                                   <div class="skill-check-icon"><i class="ri-check-line"></i></div>
+                                                   <span>Food & Culinary</span>
+                                                </div>
+                                             </label>
+                                          </div>
+                                          <div class="col-6 col-sm-6">
+                                             <label class="skill-card-checkbox">
+                                                <input type="checkbox" name="skills[]" value="Adventure & Hiking">
+                                                <div class="skill-card-content">
+                                                   <div class="skill-check-icon"><i class="ri-check-line"></i></div>
+                                                   <span>Adventure & Hiking</span>
+                                                </div>
+                                             </label>
+                                          </div>
+                                          <div class="col-6 col-sm-6">
+                                             <label class="skill-card-checkbox">
+                                                <input type="checkbox" name="skills[]" value="Nature & Wildlife">
+                                                <div class="skill-card-content">
+                                                   <div class="skill-check-icon"><i class="ri-check-line"></i></div>
+                                                   <span>Nature & Wildlife</span>
+                                                </div>
+                                             </label>
+                                          </div>
+                                          <div class="col-6 col-sm-6">
+                                             <label class="skill-card-checkbox">
+                                                <input type="checkbox" name="skills[]" value="Art & Culture">
+                                                <div class="skill-card-content">
+                                                   <div class="skill-check-icon"><i class="ri-check-line"></i></div>
+                                                   <span>Art & Culture</span>
+                                                </div>
+                                             </label>
+                                          </div>
+                                          <div class="col-6 col-sm-6">
+                                             <label class="skill-card-checkbox">
+                                                <input type="checkbox" name="skills[]" value="Photography">
+                                                <div class="skill-card-content">
+                                                   <div class="skill-check-icon"><i class="ri-check-line"></i></div>
+                                                   <span>Photography</span>
+                                                </div>
+                                             </label>
+                                          </div>
+                                          <div class="col-6 col-sm-6">
+                                             <label class="skill-card-checkbox">
+                                                <input type="checkbox" name="skills[]" value="Shopping & Local Markets">
+                                                <div class="skill-card-content">
+                                                   <div class="skill-check-icon"><i class="ri-check-line"></i></div>
+                                                   <span>Shopping & Local Markets</span>
+                                                </div>
+                                             </label>
+                                          </div>
+                                          <div class="col-6 col-sm-6">
+                                             <label class="skill-card-checkbox">
+                                                <input type="checkbox" name="skills[]" value="Nightlife & Walking">
+                                                <div class="skill-card-content">
+                                                   <div class="skill-check-icon"><i class="ri-check-line"></i></div>
+                                                   <span>Nightlife & Walking</span>
+                                                </div>
+                                             </label>
+                                          </div>
+                                       </div>
+                                    </div>
+
+                                    <!-- Service Capabilities -->
+                                    <div class="mb-4 pt-3 border-top">
+                                       <label class="form-label-custom mb-2">Service Capabilities</label>
+                                       <p class="text-muted text-13 mb-3">These help TripInBlink match traveler requests to the right providers. You can register even if you do not offer transport or accommodation.</p>
+
+                                       <!-- Transportation -->
+                                       <div class="p-3 rounded-3 mb-3" style="background:#f8fafc; border:1px solid #e2e8f0;">
+                                          <div class="form-check mb-2">
+                                             <input class="form-check-input" type="checkbox" name="provides_transportation" value="1" id="guide_provides_transportation" onchange="document.getElementById('guide_transport_details').style.display = this.checked ? 'block' : 'none';">
+                                             <label class="form-check-label fw-semibold" for="guide_provides_transportation" style="cursor: pointer;">
+                                                Do you provide transportation as part of your services?
+                                             </label>
+                                          </div>
+                                          <div id="guide_transport_details" style="display:none;">
+                                             <div class="row g-2 mt-2">
+                                                <div class="col-md-6">
+                                                   <label class="form-label-custom text-13">Vehicle / transport type</label>
+                                                   <input type="text" name="vehicle_type" class="form-control form-control-custom" placeholder="e.g. Sedan, SUV, Mini bus">
+                                                </div>
+                                                <div class="col-md-6">
+                                                   <label class="form-label-custom text-13">Maximum passenger capacity</label>
+                                                   <input type="number" min="1" max="100" name="max_passengers" class="form-control form-control-custom" placeholder="e.g. 4">
+                                                </div>
+                                                <div class="col-6 col-md-3">
+                                                   <label class="skill-card-checkbox">
+                                                      <input type="checkbox" name="airport_transfers" value="1">
+                                                      <div class="skill-card-content"><div class="skill-check-icon"><i class="ri-check-line"></i></div><span>Airport transfers</span></div>
+                                                   </label>
+                                                </div>
+                                                <div class="col-6 col-md-3">
+                                                   <label class="skill-card-checkbox">
+                                                      <input type="checkbox" name="city_to_city" value="1">
+                                                      <div class="skill-card-content"><div class="skill-check-icon"><i class="ri-check-line"></i></div><span>City-to-city</span></div>
+                                                   </label>
+                                                </div>
+                                                <div class="col-6 col-md-3">
+                                                   <label class="skill-card-checkbox">
+                                                      <input type="checkbox" name="full_day_with_driver" value="1">
+                                                      <div class="skill-card-content"><div class="skill-check-icon"><i class="ri-check-line"></i></div><span>Full-day + driver</span></div>
+                                                   </label>
+                                                </div>
+                                                <div class="col-6 col-md-3">
+                                                   <label class="skill-card-checkbox">
+                                                      <input type="checkbox" name="transport_on_request" value="1">
+                                                      <div class="skill-card-content"><div class="skill-check-icon"><i class="ri-check-line"></i></div><span>On request</span></div>
+                                                   </label>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+
+                                       <!-- Accommodation -->
+                                       <div class="p-3 rounded-3 mb-3" style="background:#f8fafc; border:1px solid #e2e8f0;">
+                                          <div class="form-check mb-2">
+                                             <input class="form-check-input" type="checkbox" name="provides_accommodation" value="1" id="guide_provides_accommodation" onchange="document.getElementById('guide_accommodation_details').style.display = this.checked ? 'block' : 'none';">
+                                             <label class="form-check-label fw-semibold" for="guide_provides_accommodation" style="cursor: pointer;">
+                                                Can you arrange accommodation for travelers?
+                                             </label>
+                                          </div>
+                                          <div id="guide_accommodation_details" style="display:none;">
+                                             <div class="row g-2 mt-2">
+                                                <div class="col-12">
+                                                   <label class="skill-card-checkbox">
+                                                      <input type="checkbox" name="hotel_booking_assistance" value="1">
+                                                      <div class="skill-card-content"><div class="skill-check-icon"><i class="ri-check-line"></i></div><span>Hotel booking assistance</span></div>
+                                                   </label>
+                                                </div>
+                                                <div class="col-12 mt-2">
+                                                   <label class="form-label-custom text-13 mb-1">Accommodation levels you can arrange</label>
+                                                   <div class="row g-2">
+                                                      <div class="col-4">
+                                                         <label class="skill-card-checkbox">
+                                                            <input type="checkbox" name="accommodation_categories[]" value="budget">
+                                                            <div class="skill-card-content"><div class="skill-check-icon"><i class="ri-check-line"></i></div><span>Budget</span></div>
+                                                         </label>
+                                                      </div>
+                                                      <div class="col-4">
+                                                         <label class="skill-card-checkbox">
+                                                            <input type="checkbox" name="accommodation_categories[]" value="standard">
+                                                            <div class="skill-card-content"><div class="skill-check-icon"><i class="ri-check-line"></i></div><span>Standard</span></div>
+                                                         </label>
+                                                      </div>
+                                                      <div class="col-4">
+                                                         <label class="skill-card-checkbox">
+                                                            <input type="checkbox" name="accommodation_categories[]" value="premium">
+                                                            <div class="skill-card-content"><div class="skill-check-icon"><i class="ri-check-line"></i></div><span>Premium</span></div>
+                                                         </label>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                                <div class="col-md-6 mt-2">
+                                                   <label class="form-label-custom text-13">Max rooms / group size</label>
+                                                   <input type="number" min="1" max="100" name="max_rooms" class="form-control form-control-custom" placeholder="e.g. 5">
+                                                </div>
+                                                <div class="col-md-6 d-flex align-items-end mt-2">
+                                                   <label class="skill-card-checkbox w-100">
+                                                      <input type="checkbox" name="accommodation_on_request" value="1">
+                                                      <div class="skill-card-content"><div class="skill-check-icon"><i class="ri-check-line"></i></div><span>Include when requested</span></div>
+                                                   </label>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+
+                                       <div class="row g-2">
+                                          <div class="col-6">
+                                             <label class="skill-card-checkbox">
+                                                <input type="checkbox" name="group_tours" value="1" checked>
+                                                <div class="skill-card-content"><div class="skill-check-icon"><i class="ri-check-line"></i></div><span>Group tours</span></div>
+                                             </label>
+                                          </div>
+                                          <div class="col-6">
+                                             <label class="skill-card-checkbox">
+                                                <input type="checkbox" name="private_custom_tours" value="1" checked>
+                                                <div class="skill-card-content"><div class="skill-check-icon"><i class="ri-check-line"></i></div><span>Private / custom tours</span></div>
+                                             </label>
+                                          </div>
+                                       </div>
+                                    </div>
+
+                                    <!-- Short Bio -->
+                                    <div class="mb-0">
+                                       <label class="form-label-custom">Short Bio / Introduction</label>
+                                       <textarea class="form-control form-control-custom" name="about" rows="3" placeholder="Tell travelers about your guiding style, passions, and what makes your tours special..."></textarea>
+                                    </div>
+                                 </div>
+                                 <div class="modal-footer d-flex justify-content-between">
+                                    <button type="button" class="btn-modal-back" data-bs-dismiss="modal">
+                                       <i class="ri-edit-line me-1"></i> Back to Edit
+                                    </button>
+                                    <button type="submit" class="btn-modal-submit" id="btnSubmitFinalGuide">
+                                       <span>Complete & Submit Application</span>
+                                       <i class="ri-check-line ms-1"></i>
+                                    </button>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </form>
+                     
+                     <div class="mt-4 pt-3 border-top text-center">
+                        <p class="mb-2 text-muted">Already registered? <a href="../login.html" class="fw-bold" style="color: var(--tp-theme-1); text-decoration: none;">Login here</a></p>
+                        <p class="mb-0 text-muted">Not a Guide? <a href="../register.html" class="fw-bold" style="color: var(--tp-theme-1); text-decoration: none;">Sign up as a Tour Operator / Traveler</a></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- 7. Frequently Asked Questions Section -->
+      <section class="reg-faqs">
+         <div class="container">
+            <div class="section-title text-center mb-50">
+               <span class="reg-section-subtitle">FAQs</span>
+               <h2 class="reg-section-title">Frequently Asked Questions</h2>
+            </div>
+            <div class="row justify-content-center">
+               <div class="col-lg-8">
+                  <div class="faq-accordion">
+                     <div class="faq-item">
+                        <button class="faq-trigger d-flex justify-content-between align-items-center w-100" type="button">
+                           <span class="faq-question">What are the requirements to become a guide?</span>
+                           <i class="ri-add-line faq-icon"></i>
+                        </button>
+                        <div class="faq-content" style="max-height: 0; overflow: hidden; transition: max-height 0.35s ease;">
+                           <p class="pt-3">You need to have deep local knowledge, be passionate about hosting, and possess necessary local guiding licenses or registrations required by your city's local tourism regulations.</p>
+                        </div>
+                     </div>
+                     <div class="faq-item">
+                        <button class="faq-trigger d-flex justify-content-between align-items-center w-100" type="button">
+                           <span class="faq-question">How much does it cost to list tours?</span>
+                           <i class="ri-add-line faq-icon"></i>
+                        </button>
+                        <div class="faq-content" style="max-height: 0; overflow: hidden; transition: max-height 0.35s ease;">
+                           <p class="pt-3">Listing your tours and profile on TripInBlink is 100% free. We only charge a small booking commission when we bring you a successful customer booking.</p>
+                        </div>
+                     </div>
+                     <div class="faq-item">
+                        <button class="faq-trigger d-flex justify-content-between align-items-center w-100" type="button">
+                           <span class="faq-question">How do payouts work?</span>
+                           <i class="ri-add-line faq-icon"></i>
+                        </button>
+                        <div class="faq-content" style="max-height: 0; overflow: hidden; transition: max-height 0.35s ease;">
+                           <p class="pt-3">All customer payments are collected securely on our platform. Your guide earnings are calculated and deposited directly to your bank account weekly every Friday.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+   </main>
+   <!-- MAIN CONTENT END -->
+
+   <!-- Footer start -->
+   <footer>
+      <div class="tp-footer-area tp-footer-two tp-footer-style-3 p-relative black-bg pt-80">
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-4 col-lg-4 col-md-6 mb-40">
+                  <div class="tp-footer-widget footer-col-1">
+                     <div class="tp-footer-widget-logo mb-20">
+                        <a href="../index.html">
+                           <img width="115" src="../assets/img/logo/logo-white.png" alt="logo">
+                        </a>
+                     </div>
+                     <div class="tp-footer-widget-content">
+                        <p class="mb-20">Discover, plan, and book your next adventure in a blink. Premium travel experiences simplified worldwide.</p>
+                        <div class="tp-footer-widget-social">
+                           <a href="#"><i class="fab fa-facebook-f"></i></a>
+                           <a href="#"><i class="fab fa-twitter"></i></a>
+                           <a href="#"><i class="fab fa-instagram"></i></a>
+                           <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-2 col-lg-2 col-md-6 mb-40">
+                  <div class="tp-footer-widget footer-col-2">
+                     <h4 class="tp-footer-widget-title mb-25">Quick Links</h4>
+                     <div class="tp-footer-widget-menu">
+                        <ul>
+                           <li><a href="../index.html">Home</a></li>
+                           <li><a href="../about.html">About Us</a></li>
+                           <li><a href="tour-grid-sidebar.html">Tour Packages</a></li>
+                           <li><a href="../contact.html">Contact Us</a></li>
+                           <li><a href="../blog.html">Travel Blog</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 mb-40">
+                  <div class="tp-footer-widget footer-col-3">
+                     <h4 class="tp-footer-widget-title mb-25">Partner With Us</h4>
+                     <div class="tp-footer-widget-menu">
+                        <ul>
+                           <li><a href="../register-guide.html">Join as a Guide</a></li>
+                           <li><a href="../register.html">Join as an Operator</a></li>
+                           <li><a href="../plan-my-trip.html">Custom Itineraries</a></li>
+                           <li><a href="../contact.html">Support Center</a></li>
+                           <li><a href="../about.html">Terms & Conditions</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 mb-40">
+                  <div class="tp-footer-widget footer-col-4">
+                     <h4 class="tp-footer-widget-title mb-25">Stay Updated</h4>
+                     <div class="tp-footer-widget-content">
+                        <p class="mb-20">Subscribe to get the latest travel tips, special offers, and destination updates.</p>
+                        <div class="tp-footer-from p-relative">
+                           <form action="#">
+                              <span>
+                                 <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13 15H5C2 15 1 13.5 1 10.5V5.5C1 2.5 2 1 5 1H13C16 1 17 2.5 17 5.5V10.5C17 13.5 16 15 13 15Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M13 5.5L10.43 7.55C9.64 8.18 8.35 8.18 7.56 7.55L5 5.5" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                 </svg>
+                              </span>
+                              <input type="email" placeholder="Your email address">
+                              <button type="submit" class="tp-footer-from-btn">
+                                 <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.38575 7.64969L5.43003 8.78469M5.43003 8.78469L8.78857 13.3333L13.8858 1.66669L1.38575 7.64969ZM5.43003 8.78469L13.5458 2.00696" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                 </svg>
+                              </button>
+                           </form>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="container-fluid container-1856">
+            <div class="tp-instagram-wrap wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".4s">
+               <div class="swiper tp-instagram-slide">
+                  <div class="swiper-wrapper slide-transtion">
+                     <div class="swiper-slide">
+                        <div class="tp-instagram-thumb p-relative">
+                           <a href="#"><img class="w-100" src="../assets/img/footer/thumb.jpg" alt="instagram"></a>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="tp-instagram-thumb p-relative">
+                           <a href="#"><img class="w-100" src="../assets/img/footer/thumb-2.jpg" alt="instagram"></a>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="tp-instagram-thumb p-relative">
+                           <a href="#"><img class="w-100" src="../assets/img/footer/thumb-3.jpg" alt="instagram"></a>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="tp-instagram-thumb p-relative">
+                           <a href="#"><img class="w-100" src="../assets/img/footer/thumb-4.jpg" alt="instagram"></a>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="tp-instagram-thumb p-relative">
+                           <a href="#"><img class="w-100" src="../assets/img/footer/thumb-5.jpg" alt="instagram"></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="tp-copyright-area pt-25 pb-15">
+            <div class="container">
+               <div class="row align-items-center">
+                  <div class="col-lg-5">
+                     <div class="tp-copyright-text">
+                        <p class="tp-ff-inter mb-5">2026 <a href="../index.html">TripInBlink</a> © All rights reserved</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-7">
+                     <div class="tp-copyright-payment d-flex flex-wrap align-items-center justify-content-lg-end">
+                        <p class="fw-500 mb-5">Payment Channels :</p>
+                        <a href="#"><img src="../assets/img/footer/payment.png" alt="payment"></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <!-- Footer end -->
+
+   <!-- JS here -->
+   <script src="../assets/js/vendor/jquery.js"></script>
+   <script src="../assets/js/bootstrap-bundle.js"></script>
+   <script src="../assets/js/swiper-bundle.js"></script>
+   <script src="../assets/js/magnific-popup.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+   <script src="../assets/js/wow.min.js"></script>
+   <script src="../assets/js/main.js"></script>
+   <script src="../assets/js/register-guide.js"></script>
+</body>
+
+</html>
