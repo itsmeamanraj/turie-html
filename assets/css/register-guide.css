@@ -1096,3 +1096,283 @@
   background-color: var(--tp-theme-1, #FD4621) !important;
   color: #ffffff !important;
 }
+
+/* ==========================================================================
+   9. RESPONSIVE DESIGN ENHANCEMENTS (TABLET & MOBILE)
+   ========================================================================== */
+
+@media (max-width: 991px) {
+  .reg-hero {
+    padding: 120px 0 80px;
+    text-align: center;
+  }
+
+  .reg-hero .reg-hero-sub {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-cta-group {
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+
+  .hero-image-card {
+    max-width: 460px;
+    margin: 0 auto;
+  }
+
+  .reg-stats-bar-wrapper {
+    margin-top: -35px;
+  }
+
+  .reg-benefits,
+  .reg-how-it-works,
+  .reg-ratings-section,
+  .reg-form-section,
+  .reg-faqs {
+    padding: 70px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .reg-hero {
+    padding: 100px 0 60px;
+  }
+
+  .reg-hero-title {
+    font-size: 30px !important;
+    line-height: 1.25 !important;
+  }
+
+  .reg-hero-sub {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .hero-image-card img {
+    height: 260px;
+  }
+
+  .floating-badge {
+    left: 12px;
+    bottom: 12px;
+    padding: 10px 14px;
+    border-radius: 14px;
+    gap: 10px;
+  }
+
+  .badge-icon-bg {
+    width: 36px;
+    height: 36px;
+    font-size: 18px;
+  }
+
+  .badge-main {
+    font-size: 15px;
+  }
+
+  .badge-sub {
+    font-size: 10px;
+  }
+
+  .reg-stats-bar-capsule {
+    padding: 16px 12px;
+    border-radius: 20px;
+  }
+
+  .stat-item {
+    padding: 10px 8px;
+    gap: 10px;
+  }
+
+  .stat-icon-box {
+    width: 42px;
+    height: 42px;
+    font-size: 19px;
+  }
+
+  .reg-stats-bar-capsule .stat-number {
+    font-size: 21px;
+  }
+
+  .reg-stats-bar-capsule .stat-desc {
+    font-size: 11px;
+  }
+
+  .benefit-card {
+    padding: 26px 20px;
+    margin-bottom: 20px;
+  }
+
+  .timeline-item {
+    margin-bottom: 30px;
+  }
+
+  .timeline-container::before {
+    display: none;
+  }
+
+  .rating-summary-card {
+    padding: 28px 20px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .rating-summary-card .display-score {
+    font-size: 44px;
+  }
+
+  .review-item-card {
+    padding: 20px;
+    margin-bottom: 16px;
+  }
+
+  .reg-form-section {
+    padding: 60px 0;
+  }
+
+  .reg-form-section .login-card {
+    padding: 28px 18px !important;
+    border-radius: 20px !important;
+  }
+
+  .reg-form-section .form-header h2 {
+    font-size: 26px;
+  }
+
+  .profile-modal .modal-dialog {
+    margin: 12px auto;
+    max-width: calc(100% - 24px);
+  }
+
+  .profile-modal .modal-header {
+    padding: 16px 20px;
+  }
+
+  .profile-modal .modal-title {
+    font-size: 18px;
+  }
+
+  .profile-modal .modal-body {
+    padding: 20px 16px;
+    max-height: 68vh;
+  }
+
+  .profile-modal .modal-footer {
+    padding: 14px 16px;
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+
+  .btn-modal-submit,
+  .btn-modal-back {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .faq-question {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 575px) {
+  .reg-hero {
+    padding: 85px 0 50px;
+  }
+
+  .reg-hero-title {
+    font-size: 25px !important;
+  }
+
+  .reg-eyebrow {
+    font-size: 22px !important;
+  }
+
+  .hero-cta-group {
+    flex-direction: column;
+    width: 100%;
+    gap: 12px;
+  }
+
+  .hero-cta-group .btn-primary-lg,
+  .hero-cta-group .btn-outline-white {
+    width: 100%;
+    justify-content: center;
+    padding: 13px 20px;
+    font-size: 14.5px;
+  }
+
+  .hero-image-card img {
+    height: 220px;
+  }
+
+  .reg-stats-bar-wrapper {
+    margin-top: -25px;
+  }
+
+  .reg-stats-bar-capsule {
+    padding: 12px 6px;
+    border-radius: 16px;
+  }
+
+  .stat-item {
+    padding: 8px 4px;
+    gap: 8px;
+  }
+
+  .stat-icon-box {
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+  }
+
+  .reg-stats-bar-capsule .stat-number {
+    font-size: 18px;
+  }
+
+  .reg-stats-bar-capsule .stat-desc {
+    font-size: 10px;
+  }
+
+  .reg-benefits,
+  .reg-how-it-works,
+  .reg-ratings-section,
+  .reg-form-section,
+  .reg-faqs {
+    padding: 48px 0;
+  }
+
+  .reg-section-title {
+    font-size: 25px !important;
+  }
+
+  .reg-form-section .login-card {
+    padding: 22px 14px !important;
+    border-radius: 16px !important;
+  }
+
+  .reg-form-section .form-header h2 {
+    font-size: 22px;
+  }
+
+  .reg-form-section .contact-input,
+  .reg-form-section select.contact-input {
+    height: 48px;
+    font-size: 14px;
+    padding: 12px 14px;
+  }
+
+  .reg-form-section .btn-primary-fill {
+    width: 100%;
+    padding: 14px 20px;
+    font-size: 15px;
+  }
+
+  .profile-modal .modal-dialog {
+    margin: 8px auto;
+    max-width: calc(100% - 16px);
+  }
+}
+
