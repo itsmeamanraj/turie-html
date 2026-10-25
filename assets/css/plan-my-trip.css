@@ -118,15 +118,7 @@ header.tp-header-height,
   box-shadow: 0 4px 20px rgba(7, 21, 22, 0.08) !important;
 }
 
-.tp-main-menu ul {
-  display: flex !important;
-  align-items: center;
-  flex-wrap: nowrap !important;
-}
 
-.tp-main-menu ul li {
-  white-space: nowrap !important;
-}
 
 /* ================= Main Section Wrapper ================= */
 .pmt-main-section {
