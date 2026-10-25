@@ -62,6 +62,7 @@
                               <li><a href="about.php">About us</a></li>
                               <li><a href="blog.php">Blog</a></li>
                               <li><a href="guide.php">Become a Guide</a></li>
+                              <li><a href="operator.php">Become an Operator</a></li>
                               <li><a href="contact.php">Contact</a></li>
                            </ul>
                         </div>
@@ -90,6 +91,7 @@
                               <li><a href="tour-grid-sidebar.php">Tour Packages</a></li>
                               <li><a href="plan-my-trip.php">Custom Trip Planner</a></li>
                               <li><a href="guide.php">Local Guide Platform</a></li>
+                              <li><a href="operator.php">Tour Operator Portal</a></li>
                               <li><a href="about.php">Travel Support</a></li>
                            </ul>
                         </div>

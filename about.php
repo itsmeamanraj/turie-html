@@ -493,270 +493,19 @@ include 'include/header.php';
       </div>
       <!-- tp-chose-area-end -->
 
-      <!-- tp-team-area-start -->
-      <div class="tp-team-area tp-team-3-wrap tp-team-ptb pt-100 pb-95">
-         <div class="container">
-            <div class="row">
-               <div class="col-12">
-                  <div class="tp-about-section-title p-relative pb-35 text-center">
-                     <span class="tp-section-subtitle d-inline-block mb-15 wow fadeInUp" data-wow-duration=".9s"
-                        data-wow-delay=".3s">Meet with guide</span>
-                     <h2 class="tp-section-title fw-600 wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".4s">Meet
-                        our travel experts</h2>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-4 col-md-6">
-                  <div class="tp-team-item mb-30 wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".3s">
-                     <div class="tp-team-thumb p-relative mb-25">
-                        <img class="w-100" src="assets/img/team/guide.jpg" alt="">
-                        <div class="tp-team-social">
-                           <a href="#">
-                              <svg width="12" height="22" viewBox="0 0 12 22" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <path
-                                    d="M11.9738 0H8.70824C7.26476 0 5.8804 0.570412 4.8597 1.58575C3.83901 2.60109 3.26559 3.97819 3.26559 5.41409V8.66255H0V12.9938H3.26559V21.6564H7.61971V12.9938H10.8853L11.9738 8.66255H7.61971V5.41409C7.61971 5.12691 7.73439 4.85149 7.93853 4.64843C8.14267 4.44536 8.41954 4.33128 8.70824 4.33128H11.9738V0Z"
-                                    fill="currentColor" />
-                              </svg>
-                           </a>
-                           <a href="#">
-                              <svg width="21" height="19" viewBox="0 0 21 19" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <path
-                                    d="M16.5387 0H19.7589L12.7238 8.0482L21 19H14.5198L9.44431 12.3578L3.63677 19H0.414685L7.93937 10.3915L0 0H6.6447L11.2325 6.07123L16.5387 0ZM15.4086 17.0708H17.1929L5.67515 1.8279H3.7604L15.4086 17.0708Z"
-                                    fill="currentColor" />
-                              </svg>
-                           </a>
-                           <a href="#">
-                              <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <path
-                                    d="M14.7371 6.31525C16.4121 6.31525 18.0184 6.98068 19.2027 8.16515C20.3871 9.34962 21.0524 10.9561 21.0524 12.6312V19.9998H16.8422V12.6312C16.8422 12.0728 16.6204 11.5373 16.2257 11.1425C15.8309 10.7477 15.2954 10.5259 14.7371 10.5259C14.1788 10.5259 13.6434 10.7477 13.2486 11.1425C12.8538 11.5373 12.6321 12.0728 12.6321 12.6312V19.9998H8.42188V12.6312C8.42188 10.9561 9.08723 9.34962 10.2716 8.16515C11.4559 6.98068 13.0622 6.31525 14.7371 6.31525Z"
-                                    fill="currentColor" />
-                                 <path d="M4.21018 7.36487H0V19.9968H4.21018V7.36487Z" fill="currentColor" />
-                                 <path
-                                    d="M2.10509 4.21064C3.2677 4.21064 4.21018 3.26806 4.21018 2.10532C4.21018 0.942584 3.2677 0 2.10509 0C0.942481 0 0 0.942584 0 2.10532C0 3.26806 0.942481 4.21064 2.10509 4.21064Z"
-                                    fill="currentColor" />
-                              </svg>
-                           </a>
-                           <a href="#">
-                              <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <ellipse cx="10.25" cy="10.2492" rx="9.5" ry="9.4992" stroke="currentColor"
-                                    stroke-width="1.5" />
-                                 <path
-                                    d="M19.7469 11.4511C18.8664 11.286 17.9608 11.2 17.0367 11.2C11.952 11.2 7.42951 13.8051 4.54688 17.8494"
-                                    stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
-                                 <path
-                                    d="M16.9 3.59973C13.927 7.08349 9.4595 9.29925 4.46414 9.29925C3.18615 9.29925 1.94271 9.15422 0.75 8.88004"
-                                    stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
-                                 <path
-                                    d="M12.7369 19.7499C12.9749 18.5967 13.1 17.4024 13.1 16.1789C13.1 10.1791 10.0926 4.88027 5.5 1.70142"
-                                    stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
-                              </svg>
-                           </a>
-                        </div>
-                     </div>
-                     <div class="tp-team-content">
-                        <span class="tp-team-subtitle d-inline-block lh-1 mb-10">Tourist guide</span>
-                        <h2 class="tp-team-title"><a href="tour-guide-details.php" class="common-underline">Alex
-                              Morgan</a></h2>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-4 col-md-6">
-                  <div class="tp-team-item mb-30 wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".5s">
-                     <div class="tp-team-thumb p-relative mb-25">
-                        <img class="w-100" src="assets/img/team/guide-2.jpg" alt="">
-                        <div class="tp-team-social">
-                           <a href="#">
-                              <svg width="12" height="22" viewBox="0 0 12 22" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <path
-                                    d="M11.9738 0H8.70824C7.26476 0 5.8804 0.570412 4.8597 1.58575C3.83901 2.60109 3.26559 3.97819 3.26559 5.41409V8.66255H0V12.9938H3.26559V21.6564H7.61971V12.9938H10.8853L11.9738 8.66255H7.61971V5.41409C7.61971 5.12691 7.73439 4.85149 7.93853 4.64843C8.14267 4.44536 8.41954 4.33128 8.70824 4.33128H11.9738V0Z"
-                                    fill="currentColor" />
-                              </svg>
-                           </a>
-                           <a href="#">
-                              <svg width="21" height="19" viewBox="0 0 21 19" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <path
-                                    d="M16.5387 0H19.7589L12.7238 8.0482L21 19H14.5198L9.44431 12.3578L3.63677 19H0.414685L7.93937 10.3915L0 0H6.6447L11.2325 6.07123L16.5387 0ZM15.4086 17.0708H17.1929L5.67515 1.8279H3.7604L15.4086 17.0708Z"
-                                    fill="currentColor" />
-                              </svg>
-                           </a>
-                           <a href="#">
-                              <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <path
-                                    d="M14.7371 6.31525C16.4121 6.31525 18.0184 6.98068 19.2027 8.16515C20.3871 9.34962 21.0524 10.9561 21.0524 12.6312V19.9998H16.8422V12.6312C16.8422 12.0728 16.6204 11.5373 16.2257 11.1425C15.8309 10.7477 15.2954 10.5259 14.7371 10.5259C14.1788 10.5259 13.6434 10.7477 13.2486 11.1425C12.8538 11.5373 12.6321 12.0728 12.6321 12.6312V19.9998H8.42188V12.6312C8.42188 10.9561 9.08723 9.34962 10.2716 8.16515C11.4559 6.98068 13.0622 6.31525 14.7371 6.31525Z"
-                                    fill="currentColor" />
-                                 <path d="M4.21018 7.36487H0V19.9968H4.21018V7.36487Z" fill="currentColor" />
-                                 <path
-                                    d="M2.10509 4.21064C3.2677 4.21064 4.21018 3.26806 4.21018 2.10532C4.21018 0.942584 3.2677 0 2.10509 0C0.942481 0 0 0.942584 0 2.10532C0 3.26806 0.942481 4.21064 2.10509 4.21064Z"
-                                    fill="currentColor" />
-                              </svg>
-                           </a>
-                           <a href="#">
-                              <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <ellipse cx="10.25" cy="10.2492" rx="9.5" ry="9.4992" stroke="currentColor"
-                                    stroke-width="1.5" />
-                                 <path
-                                    d="M19.7469 11.4511C18.8664 11.286 17.9608 11.2 17.0367 11.2C11.952 11.2 7.42951 13.8051 4.54688 17.8494"
-                                    stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
-                                 <path
-                                    d="M16.9 3.59973C13.927 7.08349 9.4595 9.29925 4.46414 9.29925C3.18615 9.29925 1.94271 9.15422 0.75 8.88004"
-                                    stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
-                                 <path
-                                    d="M12.7369 19.7499C12.9749 18.5967 13.1 17.4024 13.1 16.1789C13.1 10.1791 10.0926 4.88027 5.5 1.70142"
-                                    stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
-                              </svg>
-                           </a>
-                        </div>
-                     </div>
-                     <div class="tp-team-content">
-                        <span class="tp-team-subtitle d-inline-block lh-1 mb-10">Tourist guide</span>
-                        <h2 class="tp-team-title"><a href="tour-guide-details.php" class="common-underline">William
-                              Scott</a></h2>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-4 col-md-6">
-                  <div class="tp-team-item mb-30 wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".7s">
-                     <div class="tp-team-thumb p-relative mb-25">
-                        <img class="w-100" src="assets/img/team/guide-3.jpg" alt="">
-                        <div class="tp-team-social">
-                           <a href="#">
-                              <svg width="12" height="22" viewBox="0 0 12 22" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <path
-                                    d="M11.9738 0H8.70824C7.26476 0 5.8804 0.570412 4.8597 1.58575C3.83901 2.60109 3.26559 3.97819 3.26559 5.41409V8.66255H0V12.9938H3.26559V21.6564H7.61971V12.9938H10.8853L11.9738 8.66255H7.61971V5.41409C7.61971 5.12691 7.73439 4.85149 7.93853 4.64843C8.14267 4.44536 8.41954 4.33128 8.70824 4.33128H11.9738V0Z"
-                                    fill="currentColor" />
-                              </svg>
-                           </a>
-                           <a href="#">
-                              <svg width="21" height="19" viewBox="0 0 21 19" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <path
-                                    d="M16.5387 0H19.7589L12.7238 8.0482L21 19H14.5198L9.44431 12.3578L3.63677 19H0.414685L7.93937 10.3915L0 0H6.6447L11.2325 6.07123L16.5387 0ZM15.4086 17.0708H17.1929L5.67515 1.8279H3.7604L15.4086 17.0708Z"
-                                    fill="currentColor" />
-                              </svg>
-                           </a>
-                           <a href="#">
-                              <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <path
-                                    d="M14.7371 6.31525C16.4121 6.31525 18.0184 6.98068 19.2027 8.16515C20.3871 9.34962 21.0524 10.9561 21.0524 12.6312V19.9998H16.8422V12.6312C16.8422 12.0728 16.6204 11.5373 16.2257 11.1425C15.8309 10.7477 15.2954 10.5259 14.7371 10.5259C14.1788 10.5259 13.6434 10.7477 13.2486 11.1425C12.8538 11.5373 12.6321 12.0728 12.6321 12.6312V19.9998H8.42188V12.6312C8.42188 10.9561 9.08723 9.34962 10.2716 8.16515C11.4559 6.98068 13.0622 6.31525 14.7371 6.31525Z"
-                                    fill="currentColor" />
-                                 <path d="M4.21018 7.36487H0V19.9968H4.21018V7.36487Z" fill="currentColor" />
-                                 <path
-                                    d="M2.10509 4.21064C3.2677 4.21064 4.21018 3.26806 4.21018 2.10532C4.21018 0.942584 3.2677 0 2.10509 0C0.942481 0 0 0.942584 0 2.10532C0 3.26806 0.942481 4.21064 2.10509 4.21064Z"
-                                    fill="currentColor" />
-                              </svg>
-                           </a>
-                           <a href="#">
-                              <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <ellipse cx="10.25" cy="10.2492" rx="9.5" ry="9.4992" stroke="currentColor"
-                                    stroke-width="1.5" />
-                                 <path
-                                    d="M19.7469 11.4511C18.8664 11.286 17.9608 11.2 17.0367 11.2C11.952 11.2 7.42951 13.8051 4.54688 17.8494"
-                                    stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
-                                 <path
-                                    d="M16.9 3.59973C13.927 7.08349 9.4595 9.29925 4.46414 9.29925C3.18615 9.29925 1.94271 9.15422 0.75 8.88004"
-                                    stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
-                                 <path
-                                    d="M12.7369 19.7499C12.9749 18.5967 13.1 17.4024 13.1 16.1789C13.1 10.1791 10.0926 4.88027 5.5 1.70142"
-                                    stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
-                              </svg>
-                           </a>
-                        </div>
-                     </div>
-                     <div class="tp-team-content">
-                        <span class="tp-team-subtitle d-inline-block lh-1 mb-10">Tourist guide</span>
-                        <h2 class="tp-team-title"><a href="tour-guide-details.php" class="common-underline">Sofia
-                              Bennett</a></h2>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-4 col-md-6">
-                  <div class="tp-team-item mb-30 wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".9s">
-                     <div class="tp-team-thumb p-relative mb-25">
-                        <img class="w-100" src="assets/img/team/guide-4.jpg" alt="">
-                        <div class="tp-team-social">
-                           <a href="#">
-                              <svg width="12" height="22" viewBox="0 0 12 22" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <path
-                                    d="M11.9738 0H8.70824C7.26476 0 5.8804 0.570412 4.8597 1.58575C3.83901 2.60109 3.26559 3.97819 3.26559 5.41409V8.66255H0V12.9938H3.26559V21.6564H7.61971V12.9938H10.8853L11.9738 8.66255H7.61971V5.41409C7.61971 5.12691 7.73439 4.85149 7.93853 4.64843C8.14267 4.44536 8.41954 4.33128 8.70824 4.33128H11.9738V0Z"
-                                    fill="currentColor" />
-                              </svg>
-                           </a>
-                           <a href="#">
-                              <svg width="21" height="19" viewBox="0 0 21 19" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <path
-                                    d="M16.5387 0H19.7589L12.7238 8.0482L21 19H14.5198L9.44431 12.3578L3.63677 19H0.414685L7.93937 10.3915L0 0H6.6447L11.2325 6.07123L16.5387 0ZM15.4086 17.0708H17.1929L5.67515 1.8279H3.7604L15.4086 17.0708Z"
-                                    fill="currentColor" />
-                              </svg>
-                           </a>
-                           <a href="#">
-                              <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <path
-                                    d="M14.7371 6.31525C16.4121 6.31525 18.0184 6.98068 19.2027 8.16515C20.3871 9.34962 21.0524 10.9561 21.0524 12.6312V19.9998H16.8422V12.6312C16.8422 12.0728 16.6204 11.5373 16.2257 11.1425C15.8309 10.7477 15.2954 10.5259 14.7371 10.5259C14.1788 10.5259 13.6434 10.7477 13.2486 11.1425C12.8538 11.5373 12.6321 12.0728 12.6321 12.6312V19.9998H8.42188V12.6312C8.42188 10.9561 9.08723 9.34962 10.2716 8.16515C11.4559 6.98068 13.0622 6.31525 14.7371 6.31525Z"
-                                    fill="currentColor" />
-                                 <path d="M4.21018 7.36487H0V19.9968H4.21018V7.36487Z" fill="currentColor" />
-                                 <path
-                                    d="M2.10509 4.21064C3.2677 4.21064 4.21018 3.26806 4.21018 2.10532C4.21018 0.942584 3.2677 0 2.10509 0C0.942481 0 0 0.942584 0 2.10532C0 3.26806 0.942481 4.21064 2.10509 4.21064Z"
-                                    fill="currentColor" />
-                              </svg>
-                           </a>
-                           <a href="#">
-                              <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <ellipse cx="10.25" cy="10.2492" rx="9.5" ry="9.4992" stroke="currentColor"
-                                    stroke-width="1.5" />
-                                 <path
-                                    d="M19.7469 11.4511C18.8664 11.286 17.9608 11.2 17.0367 11.2C11.952 11.2 7.42951 13.8051 4.54688 17.8494"
-                                    stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
-                                 <path
-                                    d="M16.9 3.59973C13.927 7.08349 9.4595 9.29925 4.46414 9.29925C3.18615 9.29925 1.94271 9.15422 0.75 8.88004"
-                                    stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
-                                 <path
-                                    d="M12.7369 19.7499C12.9749 18.5967 13.1 17.4024 13.1 16.1789C13.1 10.1791 10.0926 4.88027 5.5 1.70142"
-                                    stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
-                              </svg>
-                           </a>
-                        </div>
-                     </div>
-                     <div class="tp-team-content">
-                        <span class="tp-team-subtitle d-inline-block lh-1 mb-10">Tourist guide</span>
-                        <h2 class="tp-team-title"><a href="tour-guide-details.php" class="common-underline">Emma
-                              Lawson</a></h2>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- tp-team-area-end -->
-
       <!-- tp-testimonial-area-start -->
-      <div class="tp-testimonial-area z-index-2 p-relative pt-110 pb-110" data-bg-color="#f7f9f9">
-         <img class="tp-testimonial-shape" src="assets/img/testimonial/shape.png" alt="">
-         <img class="tp-testimonial-shape-2" src="assets/img/testimonial/shape-2.png" alt="">
-         <div class="container">
+      <div class="tp-testimonial-area tp-testimonial-4 tp-tour-ptb z-index-2 p-relative pt-140 pb-120 fix">
+         <div class="container-fluid p-0">
             <div class="row">
                <div class="col-lg-12">
-                  <div class="tp-testimonial-section-title text-center mb-25">
-                     <span class="tp-section-subtitle d-inline-block mb-15 wow fadeInUp" data-wow-duration=".9s"
-                        data-wow-delay=".3s">Out Testimonial</span>
-                     <h2 class="tp-section-title fw-600 wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".4s">
-                        Memorable journeys shared<br> by our travelers</h2>
+                  <div class="tp-testimonial-section-title text-center mb-35">
+                     <span class="tp-section-5-subtitle fw-700 d-inline-block mb-15 wow fadeInUp"
+                        data-wow-duration=".9s" data-wow-delay=".3s">Our Testimonial</span>
+                     <h4 class="tp-section-title wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".5s">Special
+                        offer! choose your<br> pack today</h4>
                   </div>
-                  <div class="swiper tp-testimonial-slide wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".5s">
-                     <div class="swiper-wrapper">
+                  <div class="swiper tp-testimonial-4-slide wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".5s">
+                     <div class="swiper-wrapper slide-transtion">
                         <div class="swiper-slide">
                            <div class="tp-testimonial-item">
                               <div class="tp-testimonial-rating mb-15">
@@ -809,14 +558,14 @@ include 'include/header.php';
                               <div class="d-flex align-items-center">
                                  <div class="tp-testimonial-user d-flex align-items-center mr-15">
                                     <span class="tp-testimonial-qoute">
-                                       <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
+                                       <svg width="19" height="20" viewBox="0 0 19 20" fill="none"
                                           xmlns="http://www.w3.org/2000/svg">
                                           <path
-                                             d="M15.9544 9.66589C15.4389 9.61447 14.3048 9.61447 14.3048 8.89269C14.3048 7.91349 15.7481 6.62482 18.0677 5.23299C18.7892 4.76894 20.2845 4.04748 20.2845 3.06796C20.2845 2.29475 19.7173 1.72787 18.5317 1.88245C17.3976 2.03702 15.6449 2.81022 13.3256 4.76894C10.9029 6.7794 8.63501 10.1299 8.63501 13.4287C8.63501 16.7793 10.9029 20.1298 14.5629 20.1298C17.5008 20.1298 20.0267 17.9134 20.0267 14.872C20.0264 12.5524 18.4286 9.87221 15.9544 9.66589Z"
-                                             fill="white" />
+                                             d="M5.48383 5.61582C3.24966 7.8498 -1.96259 3.38176 2.50271 1.14818C8.82337 -2.01345 10.6942 14.552 2.50271 19.02"
+                                             stroke="white" stroke-width="1.5" />
                                           <path
-                                             d="M8.70862 8.21671C8.28524 7.99542 7.82087 7.85061 7.31972 7.80896C6.80425 7.75754 5.67015 7.75754 5.67015 7.03575C5.67015 6.05656 7.1134 4.76789 9.43301 3.37606C10.1548 2.91201 11.6495 2.19054 11.6495 1.21102C11.6495 0.437821 11.0822 -0.129064 9.89674 0.0255115C8.76264 0.180087 7.00992 0.95329 4.69063 2.91201C2.26819 4.92246 0 8.27301 0 11.5721C0 14.9227 2.26787 18.2732 5.92789 18.2732C6.7883 18.2732 7.61292 18.0819 8.34935 17.7366C7.62724 16.431 7.24227 14.9204 7.24227 13.4293C7.24259 11.5881 7.83551 9.80249 8.70862 8.21671Z"
-                                             fill="white" />
+                                             d="M15.6791 5.61582C13.445 7.8498 8.23272 3.38176 12.698 1.14818C19.0187 -2.01345 20.8896 14.552 12.698 19.02"
+                                             stroke="white" stroke-width="1.5" />
                                        </svg>
                                     </span>
                                     <img src="assets/img/testimonial/avatar.png" alt="">
@@ -880,14 +629,14 @@ include 'include/header.php';
                               <div class="d-flex align-items-center">
                                  <div class="tp-testimonial-user d-flex align-items-center mr-15">
                                     <span class="tp-testimonial-qoute">
-                                       <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
+                                       <svg width="19" height="20" viewBox="0 0 19 20" fill="none"
                                           xmlns="http://www.w3.org/2000/svg">
                                           <path
-                                             d="M15.9544 9.66589C15.4389 9.61447 14.3048 9.61447 14.3048 8.89269C14.3048 7.91349 15.7481 6.62482 18.0677 5.23299C18.7892 4.76894 20.2845 4.04748 20.2845 3.06796C20.2845 2.29475 19.7173 1.72787 18.5317 1.88245C17.3976 2.03702 15.6449 2.81022 13.3256 4.76894C10.9029 6.7794 8.63501 10.1299 8.63501 13.4287C8.63501 16.7793 10.9029 20.1298 14.5629 20.1298C17.5008 20.1298 20.0267 17.9134 20.0267 14.872C20.0264 12.5524 18.4286 9.87221 15.9544 9.66589Z"
-                                             fill="white" />
+                                             d="M5.48383 5.61582C3.24966 7.8498 -1.96259 3.38176 2.50271 1.14818C8.82337 -2.01345 10.6942 14.552 2.50271 19.02"
+                                             stroke="white" stroke-width="1.5" />
                                           <path
-                                             d="M8.70862 8.21671C8.28524 7.99542 7.82087 7.85061 7.31972 7.80896C6.80425 7.75754 5.67015 7.75754 5.67015 7.03575C5.67015 6.05656 7.1134 4.76789 9.43301 3.37606C10.1548 2.91201 11.6495 2.19054 11.6495 1.21102C11.6495 0.437821 11.0822 -0.129064 9.89674 0.0255115C8.76264 0.180087 7.00992 0.95329 4.69063 2.91201C2.26819 4.92246 0 8.27301 0 11.5721C0 14.9227 2.26787 18.2732 5.92789 18.2732C6.7883 18.2732 7.61292 18.0819 8.34935 17.7366C7.62724 16.431 7.24227 14.9204 7.24227 13.4293C7.24259 11.5881 7.83551 9.80249 8.70862 8.21671Z"
-                                             fill="white" />
+                                             d="M15.6791 5.61582C13.445 7.8498 8.23272 3.38176 12.698 1.14818C19.0187 -2.01345 20.8896 14.552 12.698 19.02"
+                                             stroke="white" stroke-width="1.5" />
                                        </svg>
                                     </span>
                                     <img src="assets/img/testimonial/avatar-2.png" alt="">
@@ -951,14 +700,14 @@ include 'include/header.php';
                               <div class="d-flex align-items-center">
                                  <div class="tp-testimonial-user d-flex align-items-center mr-15">
                                     <span class="tp-testimonial-qoute">
-                                       <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
+                                       <svg width="19" height="20" viewBox="0 0 19 20" fill="none"
                                           xmlns="http://www.w3.org/2000/svg">
                                           <path
-                                             d="M15.9544 9.66589C15.4389 9.61447 14.3048 9.61447 14.3048 8.89269C14.3048 7.91349 15.7481 6.62482 18.0677 5.23299C18.7892 4.76894 20.2845 4.04748 20.2845 3.06796C20.2845 2.29475 19.7173 1.72787 18.5317 1.88245C17.3976 2.03702 15.6449 2.81022 13.3256 4.76894C10.9029 6.7794 8.63501 10.1299 8.63501 13.4287C8.63501 16.7793 10.9029 20.1298 14.5629 20.1298C17.5008 20.1298 20.0267 17.9134 20.0267 14.872C20.0264 12.5524 18.4286 9.87221 15.9544 9.66589Z"
-                                             fill="white" />
+                                             d="M5.48383 5.61582C3.24966 7.8498 -1.96259 3.38176 2.50271 1.14818C8.82337 -2.01345 10.6942 14.552 2.50271 19.02"
+                                             stroke="white" stroke-width="1.5" />
                                           <path
-                                             d="M8.70862 8.21671C8.28524 7.99542 7.82087 7.85061 7.31972 7.80896C6.80425 7.75754 5.67015 7.75754 5.67015 7.03575C5.67015 6.05656 7.1134 4.76789 9.43301 3.37606C10.1548 2.91201 11.6495 2.19054 11.6495 1.21102C11.6495 0.437821 11.0822 -0.129064 9.89674 0.0255115C8.76264 0.180087 7.00992 0.95329 4.69063 2.91201C2.26819 4.92246 0 8.27301 0 11.5721C0 14.9227 2.26787 18.2732 5.92789 18.2732C6.7883 18.2732 7.61292 18.0819 8.34935 17.7366C7.62724 16.431 7.24227 14.9204 7.24227 13.4293C7.24259 11.5881 7.83551 9.80249 8.70862 8.21671Z"
-                                             fill="white" />
+                                             d="M15.6791 5.61582C13.445 7.8498 8.23272 3.38176 12.698 1.14818C19.0187 -2.01345 20.8896 14.552 12.698 19.02"
+                                             stroke="white" stroke-width="1.5" />
                                        </svg>
                                     </span>
                                     <img src="assets/img/testimonial/avatar-3.png" alt="">
@@ -1022,14 +771,14 @@ include 'include/header.php';
                               <div class="d-flex align-items-center">
                                  <div class="tp-testimonial-user d-flex align-items-center mr-15">
                                     <span class="tp-testimonial-qoute">
-                                       <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
+                                       <svg width="19" height="20" viewBox="0 0 19 20" fill="none"
                                           xmlns="http://www.w3.org/2000/svg">
                                           <path
-                                             d="M15.9544 9.66589C15.4389 9.61447 14.3048 9.61447 14.3048 8.89269C14.3048 7.91349 15.7481 6.62482 18.0677 5.23299C18.7892 4.76894 20.2845 4.04748 20.2845 3.06796C20.2845 2.29475 19.7173 1.72787 18.5317 1.88245C17.3976 2.03702 15.6449 2.81022 13.3256 4.76894C10.9029 6.7794 8.63501 10.1299 8.63501 13.4287C8.63501 16.7793 10.9029 20.1298 14.5629 20.1298C17.5008 20.1298 20.0267 17.9134 20.0267 14.872C20.0264 12.5524 18.4286 9.87221 15.9544 9.66589Z"
-                                             fill="white" />
+                                             d="M5.48383 5.61582C3.24966 7.8498 -1.96259 3.38176 2.50271 1.14818C8.82337 -2.01345 10.6942 14.552 2.50271 19.02"
+                                             stroke="white" stroke-width="1.5" />
                                           <path
-                                             d="M8.70862 8.21671C8.28524 7.99542 7.82087 7.85061 7.31972 7.80896C6.80425 7.75754 5.67015 7.75754 5.67015 7.03575C5.67015 6.05656 7.1134 4.76789 9.43301 3.37606C10.1548 2.91201 11.6495 2.19054 11.6495 1.21102C11.6495 0.437821 11.0822 -0.129064 9.89674 0.0255115C8.76264 0.180087 7.00992 0.95329 4.69063 2.91201C2.26819 4.92246 0 8.27301 0 11.5721C0 14.9227 2.26787 18.2732 5.92789 18.2732C6.7883 18.2732 7.61292 18.0819 8.34935 17.7366C7.62724 16.431 7.24227 14.9204 7.24227 13.4293C7.24259 11.5881 7.83551 9.80249 8.70862 8.21671Z"
-                                             fill="white" />
+                                             d="M15.6791 5.61582C13.445 7.8498 8.23272 3.38176 12.698 1.14818C19.0187 -2.01345 20.8896 14.552 12.698 19.02"
+                                             stroke="white" stroke-width="1.5" />
                                        </svg>
                                     </span>
                                     <img src="assets/img/testimonial/avatar.png" alt="">
@@ -1043,63 +792,301 @@ include 'include/header.php';
                         </div>
                      </div>
                   </div>
-                  <div class="tp-testimonial-pagination mt-10"></div>
+                  <div class="tp-testimonial-4-slide-2 wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".5s">
+                     <div class="swiper tp-testimonial-4-slide" dir="rtl">
+                        <div class="swiper-wrapper slide-transtion">
+                           <div class="swiper-slide">
+                              <div class="tp-testimonial-item">
+                                 <div class="tp-testimonial-rating mb-15">
+                                    <span>
+                                       <svg width="17" height="16" viewBox="0 0 17 16" fill="none"
+                                          xmlns="http://www.w3.org/2000/svg">
+                                          <path
+                                             d="M8.4122 0L11.0116 5.26604L16.8244 6.11567L12.6183 10.2124L13.6109 16L8.4122 13.266L3.21346 16L4.2061 10.2124L0 6.11567L5.81283 5.26604L8.4122 0Z"
+                                             fill="currentColor" />
+                                       </svg>
+                                    </span>
+                                    <span>
+                                       <svg width="17" height="16" viewBox="0 0 17 16" fill="none"
+                                          xmlns="http://www.w3.org/2000/svg">
+                                          <path
+                                             d="M8.4122 0L11.0116 5.26604L16.8244 6.11567L12.6183 10.2124L13.6109 16L8.4122 13.266L3.21346 16L4.2061 10.2124L0 6.11567L5.81283 5.26604L8.4122 0Z"
+                                             fill="currentColor" />
+                                       </svg>
+                                    </span>
+                                    <span>
+                                       <svg width="17" height="16" viewBox="0 0 17 16" fill="none"
+                                          xmlns="http://www.w3.org/2000/svg">
+                                          <path
+                                             d="M8.4122 0L11.0116 5.26604L16.8244 6.11567L12.6183 10.2124L13.6109 16L8.4122 13.266L3.21346 16L4.2061 10.2124L0 6.11567L5.81283 5.26604L8.4122 0Z"
+                                             fill="currentColor" />
+                                       </svg>
+                                    </span>
+                                    <span>
+                                       <svg width="17" height="16" viewBox="0 0 17 16" fill="none"
+                                          xmlns="http://www.w3.org/2000/svg">
+                                          <path
+                                             d="M8.4122 0L11.0116 5.26604L16.8244 6.11567L12.6183 10.2124L13.6109 16L8.4122 13.266L3.21346 16L4.2061 10.2124L0 6.11567L5.81283 5.26604L8.4122 0Z"
+                                             fill="currentColor" />
+                                       </svg>
+                                    </span>
+                                    <span>
+                                       <svg width="17" height="16" viewBox="0 0 17 16" fill="none"
+                                          xmlns="http://www.w3.org/2000/svg">
+                                          <path
+                                             d="M8.4122 0L11.0116 5.26604L16.8244 6.11567L12.6183 10.2124L13.6109 16L8.4122 13.266L3.21346 16L4.2061 10.2124L0 6.11567L5.81283 5.26604L8.4122 0Z"
+                                             fill="currentColor" />
+                                       </svg>
+                                    </span>
+                                 </div>
+                                 <h3 class="tp-testimonial-title mb-20">Perfect travel website design</h3>
+                                 <p class="mb-40">“This service has taken my business to a whole new
+                                    level. The design and functionality are both outstanding
+                                    and user friendly. The team consistently provided timely
+                                    support and exceeded my expectations.”</p>
+                                 <div class="d-flex align-items-center">
+                                    <div class="tp-testimonial-user d-flex align-items-center mr-15">
+                                       <span class="tp-testimonial-qoute">
+                                          <svg width="19" height="20" viewBox="0 0 19 20" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                             <path
+                                                d="M5.48383 5.61582C3.24966 7.8498 -1.96259 3.38176 2.50271 1.14818C8.82337 -2.01345 10.6942 14.552 2.50271 19.02"
+                                                stroke="white" stroke-width="1.5" />
+                                             <path
+                                                d="M15.6791 5.61582C13.445 7.8498 8.23272 3.38176 12.698 1.14818C19.0187 -2.01345 20.8896 14.552 12.698 19.02"
+                                                stroke="white" stroke-width="1.5" />
+                                          </svg>
+                                       </span>
+                                       <img src="assets/img/testimonial/avatar.png" alt="">
+                                    </div>
+                                    <div class="tp-testimonial-avatar-info">
+                                       <h3 class="tp-testimonial-avatar-title">Michael Lewis</h3>
+                                       <span class="tp-testimonial-avatar-pos">Product Designer</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div class="tp-testimonial-item">
+                                 <div class="tp-testimonial-rating mb-15">
+                                    <span>
+                                       <svg width="17" height="16" viewBox="0 0 17 16" fill="none"
+                                          xmlns="http://www.w3.org/2000/svg">
+                                          <path
+                                             d="M8.4122 0L11.0116 5.26604L16.8244 6.11567L12.6183 10.2124L13.6109 16L8.4122 13.266L3.21346 16L4.2061 10.2124L0 6.11567L5.81283 5.26604L8.4122 0Z"
+                                             fill="currentColor" />
+                                       </svg>
+                                    </span>
+                                    <span>
+                                       <svg width="17" height="16" viewBox="0 0 17 16" fill="none"
+                                          xmlns="http://www.w3.org/2000/svg">
+                                          <path
+                                             d="M8.4122 0L11.0116 5.26604L16.8244 6.11567L12.6183 10.2124L13.6109 16L8.4122 13.266L3.21346 16L4.2061 10.2124L0 6.11567L5.81283 5.26604L8.4122 0Z"
+                                             fill="currentColor" />
+                                       </svg>
+                                    </span>
+                                    <span>
+                                       <svg width="17" height="16" viewBox="0 0 17 16" fill="none"
+                                          xmlns="http://www.w3.org/2000/svg">
+                                          <path
+                                             d="M8.4122 0L11.0116 5.26604L16.8244 6.11567L12.6183 10.2124L13.6109 16L8.4122 13.266L3.21346 16L4.2061 10.2124L0 6.11567L5.81283 5.26604L8.4122 0Z"
+                                             fill="currentColor" />
+                                       </svg>
+                                    </span>
+                                    <span>
+                                       <svg width="17" height="16" viewBox="0 0 17 16" fill="none"
+                                          xmlns="http://www.w3.org/2000/svg">
+                                          <path
+                                             d="M8.4122 0L11.0116 5.26604L16.8244 6.11567L12.6183 10.2124L13.6109 16L8.4122 13.266L3.21346 16L4.2061 10.2124L0 6.11567L5.81283 5.26604L8.4122 0Z"
+                                             fill="currentColor" />
+                                       </svg>
+                                    </span>
+                                    <span>
+                                       <svg width="17" height="16" viewBox="0 0 17 16" fill="none"
+                                          xmlns="http://www.w3.org/2000/svg">
+                                          <path
+                                             d="M8.4122 0L11.0116 5.26604L16.8244 6.11567L12.6183 10.2124L13.6109 16L8.4122 13.266L3.21346 16L4.2061 10.2124L0 6.11567L5.81283 5.26604L8.4122 0Z"
+                                             fill="currentColor" />
+                                       </svg>
+                                    </span>
+                                 </div>
+                                 <h3 class="tp-testimonial-title mb-20">Travel-friendly modern features</h3>
+                                 <p class="mb-40">“This service has taken my business to a whole new
+                                    level. The design and functionality are both outstanding
+                                    and user friendly. The team consistently provided timely
+                                    support and exceeded my expectations.”</p>
+                                 <div class="d-flex align-items-center">
+                                    <div class="tp-testimonial-user d-flex align-items-center mr-15">
+                                       <span class="tp-testimonial-qoute">
+                                          <svg width="19" height="20" viewBox="0 0 19 20" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                             <path
+                                                d="M5.48383 5.61582C3.24966 7.8498 -1.96259 3.38176 2.50271 1.14818C8.82337 -2.01345 10.6942 14.552 2.50271 19.02"
+                                                stroke="white" stroke-width="1.5" />
+                                             <path
+                                                d="M15.6791 5.61582C13.445 7.8498 8.23272 3.38176 12.698 1.14818C19.0187 -2.01345 20.8896 14.552 12.698 19.02"
+                                                stroke="white" stroke-width="1.5" />
+                                          </svg>
+                                       </span>
+                                       <img src="assets/img/testimonial/avatar-2.png" alt="">
+                                    </div>
+                                    <div class="tp-testimonial-avatar-info">
+                                       <h3 class="tp-testimonial-avatar-title">Michael Lewis</h3>
+                                       <span class="tp-testimonial-avatar-pos">Product Designer</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div class="tp-testimonial-item">
+                                 <div class="tp-testimonial-rating mb-15">
+                                    <span>
+                                       <svg width="17" height="16" viewBox="0 0 17 16" fill="none"
+                                          xmlns="http://www.w3.org/2000/svg">
+                                          <path
+                                             d="M8.4122 0L11.0116 5.26604L16.8244 6.11567L12.6183 10.2124L13.6109 16L8.4122 13.266L3.21346 16L4.2061 10.2124L0 6.11567L5.81283 5.26604L8.4122 0Z"
+                                             fill="currentColor" />
+                                       </svg>
+                                    </span>
+                                    <span>
+                                       <svg width="17" height="16" viewBox="0 0 17 16" fill="none"
+                                          xmlns="http://www.w3.org/2000/svg">
+                                          <path
+                                             d="M8.4122 0L11.0116 5.26604L16.8244 6.11567L12.6183 10.2124L13.6109 16L8.4122 13.266L3.21346 16L4.2061 10.2124L0 6.11567L5.81283 5.26604L8.4122 0Z"
+                                             fill="currentColor" />
+                                       </svg>
+                                    </span>
+                                    <span>
+                                       <svg width="17" height="16" viewBox="0 0 17 16" fill="none"
+                                          xmlns="http://www.w3.org/2000/svg">
+                                          <path
+                                             d="M8.4122 0L11.0116 5.26604L16.8244 6.11567L12.6183 10.2124L13.6109 16L8.4122 13.266L3.21346 16L4.2061 10.2124L0 6.11567L5.81283 5.26604L8.4122 0Z"
+                                             fill="currentColor" />
+                                       </svg>
+                                    </span>
+                                    <span>
+                                       <svg width="17" height="16" viewBox="0 0 17 16" fill="none"
+                                          xmlns="http://www.w3.org/2000/svg">
+                                          <path
+                                             d="M8.4122 0L11.0116 5.26604L16.8244 6.11567L12.6183 10.2124L13.6109 16L8.4122 13.266L3.21346 16L4.2061 10.2124L0 6.11567L5.81283 5.26604L8.4122 0Z"
+                                             fill="currentColor" />
+                                       </svg>
+                                    </span>
+                                    <span>
+                                       <svg width="17" height="16" viewBox="0 0 17 16" fill="none"
+                                          xmlns="http://www.w3.org/2000/svg">
+                                          <path
+                                             d="M8.4122 0L11.0116 5.26604L16.8244 6.11567L12.6183 10.2124L13.6109 16L8.4122 13.266L3.21346 16L4.2061 10.2124L0 6.11567L5.81283 5.26604L8.4122 0Z"
+                                             fill="currentColor" />
+                                       </svg>
+                                    </span>
+                                 </div>
+                                 <h3 class="tp-testimonial-title mb-20">Easy customization for travel</h3>
+                                 <p class="mb-40">“This service has taken my business to a whole new
+                                    level. The design and functionality are both outstanding
+                                    and user friendly. The team consistently provided timely
+                                    support and exceeded my expectations.”</p>
+                                 <div class="d-flex align-items-center">
+                                    <div class="tp-testimonial-user d-flex align-items-center mr-15">
+                                       <span class="tp-testimonial-qoute">
+                                          <svg width="19" height="20" viewBox="0 0 19 20" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                             <path
+                                                d="M5.48383 5.61582C3.24966 7.8498 -1.96259 3.38176 2.50271 1.14818C8.82337 -2.01345 10.6942 14.552 2.50271 19.02"
+                                                stroke="white" stroke-width="1.5" />
+                                             <path
+                                                d="M15.6791 5.61582C13.445 7.8498 8.23272 3.38176 12.698 1.14818C19.0187 -2.01345 20.8896 14.552 12.698 19.02"
+                                                stroke="white" stroke-width="1.5" />
+                                          </svg>
+                                       </span>
+                                       <img src="assets/img/testimonial/avatar-3.png" alt="">
+                                    </div>
+                                    <div class="tp-testimonial-avatar-info">
+                                       <h3 class="tp-testimonial-avatar-title">Michael Lewis</h3>
+                                       <span class="tp-testimonial-avatar-pos">Product Designer</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div class="tp-testimonial-item">
+                                 <div class="tp-testimonial-rating mb-15">
+                                    <span>
+                                       <svg width="17" height="16" viewBox="0 0 17 16" fill="none"
+                                          xmlns="http://www.w3.org/2000/svg">
+                                          <path
+                                             d="M8.4122 0L11.0116 5.26604L16.8244 6.11567L12.6183 10.2124L13.6109 16L8.4122 13.266L3.21346 16L4.2061 10.2124L0 6.11567L5.81283 5.26604L8.4122 0Z"
+                                             fill="currentColor" />
+                                       </svg>
+                                    </span>
+                                    <span>
+                                       <svg width="17" height="16" viewBox="0 0 17 16" fill="none"
+                                          xmlns="http://www.w3.org/2000/svg">
+                                          <path
+                                             d="M8.4122 0L11.0116 5.26604L16.8244 6.11567L12.6183 10.2124L13.6109 16L8.4122 13.266L3.21346 16L4.2061 10.2124L0 6.11567L5.81283 5.26604L8.4122 0Z"
+                                             fill="currentColor" />
+                                       </svg>
+                                    </span>
+                                    <span>
+                                       <svg width="17" height="16" viewBox="0 0 17 16" fill="none"
+                                          xmlns="http://www.w3.org/2000/svg">
+                                          <path
+                                             d="M8.4122 0L11.0116 5.26604L16.8244 6.11567L12.6183 10.2124L13.6109 16L8.4122 13.266L3.21346 16L4.2061 10.2124L0 6.11567L5.81283 5.26604L8.4122 0Z"
+                                             fill="currentColor" />
+                                       </svg>
+                                    </span>
+                                    <span>
+                                       <svg width="17" height="16" viewBox="0 0 17 16" fill="none"
+                                          xmlns="http://www.w3.org/2000/svg">
+                                          <path
+                                             d="M8.4122 0L11.0116 5.26604L16.8244 6.11567L12.6183 10.2124L13.6109 16L8.4122 13.266L3.21346 16L4.2061 10.2124L0 6.11567L5.81283 5.26604L8.4122 0Z"
+                                             fill="currentColor" />
+                                       </svg>
+                                    </span>
+                                    <span>
+                                       <svg width="17" height="16" viewBox="0 0 17 16" fill="none"
+                                          xmlns="http://www.w3.org/2000/svg">
+                                          <path
+                                             d="M8.4122 0L11.0116 5.26604L16.8244 6.11567L12.6183 10.2124L13.6109 16L8.4122 13.266L3.21346 16L4.2061 10.2124L0 6.11567L5.81283 5.26604L8.4122 0Z"
+                                             fill="currentColor" />
+                                       </svg>
+                                    </span>
+                                 </div>
+                                 <h3 class="tp-testimonial-title mb-20">Perfect travel website design</h3>
+                                 <p class="mb-40">“This service has taken my business to a whole new
+                                    level. The design and functionality are both outstanding
+                                    and user friendly. The team consistently provided timely
+                                    support and exceeded my expectations.”</p>
+                                 <div class="d-flex align-items-center">
+                                    <div class="tp-testimonial-user d-flex align-items-center mr-15">
+                                       <span class="tp-testimonial-qoute">
+                                          <svg width="19" height="20" viewBox="0 0 19 20" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                             <path
+                                                d="M5.48383 5.61582C3.24966 7.8498 -1.96259 3.38176 2.50271 1.14818C8.82337 -2.01345 10.6942 14.552 2.50271 19.02"
+                                                stroke="white" stroke-width="1.5" />
+                                             <path
+                                                d="M15.6791 5.61582C13.445 7.8498 8.23272 3.38176 12.698 1.14818C19.0187 -2.01345 20.8896 14.552 12.698 19.02"
+                                                stroke="white" stroke-width="1.5" />
+                                          </svg>
+                                       </span>
+                                       <img src="assets/img/testimonial/avatar.png" alt="">
+                                    </div>
+                                    <div class="tp-testimonial-avatar-info">
+                                       <h3 class="tp-testimonial-avatar-title">Michael Lewis</h3>
+                                       <span class="tp-testimonial-avatar-pos">Product Designer</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
                </div>
             </div>
          </div>
       </div>
       <!-- tp-testimonial-area-end -->
-
-      <!-- tp-process-area-start -->
-      <div class="tp-process-area pt-135">
-         <div class="container">
-            <div class="row">
-               <div class="col-12">
-                  <div class="tp-process-title-wrap mb-45">
-                     <h2 class="tp-section-title fw-600 wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".4s">For
-                        travel process</h2>
-                  </div>
-               </div>
-               <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-6">
-                  <a href="contact.php" class="tp-process-item icon-animetion-wrap mb-30 d-block">
-                     <h2 class="tp-process-title mb-0">TripInBlink.ai <span>Deta</span></h2>
-                     <p class="tp-process-dec mb-60">Get Travel questions answered</p>
-                     <div class="tp-process-icon text-center">
-                        <img class="icon-animetion-icon" src="assets/img/process/icon.png" alt="">
-                     </div>
-                  </a>
-               </div>
-               <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-6">
-                  <a href="contact.php" class="tp-process-item icon-animetion-wrap mb-30 d-block">
-                     <h2 class="tp-process-title mb-0">Best Time To Travel</h2>
-                     <p class="tp-process-dec mb-60">Know when to save</p>
-                     <div class="tp-process-icon text-center">
-                        <img class="icon-animetion-icon" src="assets/img/process/icon-2.png" alt="">
-                     </div>
-                  </a>
-               </div>
-               <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-6">
-                  <a href="contact.php" class="tp-process-item icon-animetion-wrap mb-30 d-block">
-                     <h2 class="tp-process-title mb-0">Expore</h2>
-                     <p class="tp-process-dec mb-60">See destinies on your budget</p>
-                     <div class="tp-process-icon text-center">
-                        <img class="icon-animetion-icon" src="assets/img/process/icon-3.png" alt="">
-                     </div>
-                  </a>
-               </div>
-               <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-6">
-                  <a href="contact.php" class="tp-process-item icon-animetion-wrap mb-30 d-block">
-                     <h2 class="tp-process-title mb-0">Trips</h2>
-                     <p class="tp-process-dec mb-60">Keep all plans in one place</p>
-                     <div class="tp-process-icon text-center">
-                        <img class="icon-animetion-icon" src="assets/img/process/icon-4.png" alt="">
-                     </div>
-                  </a>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- tp-process-area-end -->
 
       <!-- tp-faq-area-start -->
       <div class="tp-faq-area tp-faq-city-ptb pt-110 pb-90">

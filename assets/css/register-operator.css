@@ -1,0 +1,75 @@
+/* ==========================================================================
+   REGISTER OPERATOR PAGE - TRIPINBLINK THEME STYLING
+   ========================================================================== */
+
+@import url("register-guide.css");
+
+/* Operator Specific Accent Enhancements */
+.reg-hero.operator-hero {
+  background: #071516;
+  background-image: radial-gradient(circle at 15% 25%, rgba(253, 70, 33, 0.22) 0%, transparent 50%),
+                    radial-gradient(circle at 85% 75%, rgba(5, 136, 176, 0.18) 0%, transparent 50%);
+}
+
+.badge-icon-bg.bg-success-soft {
+  background: #ecfdf5 !important;
+  color: #10b981 !important;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+/* Service Capabilities Section Inside Modal */
+.capability-card-wrapper {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 16px;
+  transition: all 0.2s ease;
+}
+
+.capability-card-wrapper:hover {
+  border-color: #cbd5e1;
+}
+
+.capability-card-wrapper .form-check-label {
+  font-family: var(--tp-ff-heading, 'Onest', sans-serif);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--tp-common-black, #071516);
+  cursor: pointer;
+}
+
+.capability-details-box {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px dashed #cbd5e1;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Star rating custom colors */
+.ratings i.ri-star-fill {
+  color: #f59e0b;
+}
+
+/* Review Avatar */
+.review-author img {
+  border: 2px solid #ffffff;
+  box-shadow: 0 2px 8px rgba(7, 21, 22, 0.08);
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+  .capability-card-wrapper {
+    padding: 12px;
+  }
+}

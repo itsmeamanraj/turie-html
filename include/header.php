@@ -307,9 +307,7 @@ if (!isset($current_page)) {
                            <li class="<?= ($current_page === 'blog') ? 'active' : '' ?>">
                               <a href="blog.php">Blog</a>
                            </li>
-                           <li class="<?= ($current_page === 'plan-my-trip') ? 'active' : '' ?>">
-                              <a href="plan-my-trip.php">Plan My Trip</a>
-                           </li>
+                           
                         </ul>
                      </nav>
                   </div>
@@ -317,7 +315,7 @@ if (!isset($current_page)) {
                <div class="col-xl-4 col-6">
                   <div class="tp-header-option tp-header-two d-flex align-items-center justify-content-end">
                      <div class="tp-header-contact ml-30 d-none d-md-block">
-                        <a href="plan-my-trip.php">Book a Tour</a>
+                        <a href="plan-my-trip.php">Plan My Trip</a>
                      </div>
                      <div class="tp-header-top-menu-item tp-header-login ml-20 d-none d-xl-block">
                         <span class="tp-header-login-btn" id="tp-header-login-btn">
@@ -330,6 +328,7 @@ if (!isset($current_page)) {
                            <li><a href="login.php"><i class="icon far fa-user"></i> Login</a></li>
                            <li><a href="register.php"><i class="icon fas fa-user-plus"></i> Register</a></li>
                            <li><a href="guide.php"><i class="icon fas fa-id-badge"></i> Join as Guide</a></li>
+                           <li><a href="operator.php"><i class="icon fas fa-briefcase"></i> Join as Operator</a></li>
                         </ul>
                      </div>
                      <div class="tp-header-toogle-wrapper d-xl-none ml-10">
