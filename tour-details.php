@@ -1,5 +1,89 @@
 <?php
-$page_title = "Tour Details – TripInBlink";
+$guide_map = [
+   'Alex Morgan' => [
+      'avatar' => 'assets/img/team/guide.jpg',
+      'location' => 'Madrid, Spain',
+      'badge' => 'Certified Senior Guide & Operator',
+      'rating' => '4.95/5 (142 reviews)',
+      'city' => 'Madrid, Spain'
+   ],
+   'William Scott' => [
+      'avatar' => 'assets/img/team/guide-2.jpg',
+      'location' => 'London, United Kingdom',
+      'badge' => 'Verified London Blue Badge Partner',
+      'rating' => '4.9/5 (118 reviews)',
+      'city' => 'London, UK'
+   ],
+   'Olivia Martin' => [
+      'avatar' => 'assets/img/team/guide-3.jpg',
+      'location' => 'Rome, Italy',
+      'badge' => 'Official Vatican & Colosseum Certified',
+      'rating' => '4.98/5 (165 reviews)',
+      'city' => 'Rome, Italy'
+   ],
+   'Sofia Bennett' => [
+      'avatar' => 'assets/img/team/guide-4.jpg',
+      'location' => 'Paris, France',
+      'badge' => 'Certified French National Guide',
+      'rating' => '4.88/5 (94 reviews)',
+      'city' => 'Paris, France'
+   ],
+   'Emma Lawson' => [
+      'avatar' => 'assets/img/team/guide-5.jpg',
+      'location' => 'Berlin, Germany',
+      'badge' => 'Verified Berlin Heritage Guide',
+      'rating' => '4.92/5 (110 reviews)',
+      'city' => 'Berlin, Germany'
+   ],
+   'Lucas Garcia' => [
+      'avatar' => 'assets/img/team/guide-6.jpg',
+      'location' => 'Barcelona, Spain',
+      'badge' => 'Catalonia Official Tourism Partner',
+      'rating' => '4.97/5 (182 reviews)',
+      'city' => 'Barcelona, Spain'
+   ],
+   'Ethan Brooks' => [
+      'avatar' => 'assets/img/team/guide-7.jpg',
+      'location' => 'Sydney, Australia',
+      'badge' => 'Accredited Eco-Tour Guide',
+      'rating' => '4.89/5 (86 reviews)',
+      'city' => 'Sydney, Australia'
+   ],
+   'Daniel Harris' => [
+      'avatar' => 'assets/img/team/guide-8.jpg',
+      'location' => 'New York, USA',
+      'badge' => 'Licensed NYC Sightseeing Guide',
+      'rating' => '4.94/5 (130 reviews)',
+      'city' => 'New York, USA'
+   ],
+   'Ezeewear' => [
+      'avatar' => 'assets/img/testimonial/user-1.jpeg',
+      'location' => 'Delhi, India',
+      'badge' => 'Verified Tour Operator & Local Guide',
+      'rating' => '4.9/5 (128 reviews)',
+      'city' => 'Delhi, India'
+   ]
+];
+
+// Determine guide
+$raw_guide = isset($_GET['guide']) && !empty($_GET['guide']) ? trim($_GET['guide']) : (isset($_GET['name']) ? trim($_GET['name']) : 'Alex Morgan');
+$guide_key = null;
+foreach (array_keys($guide_map) as $k) {
+   if (strcasecmp($k, $raw_guide) === 0) {
+      $guide_key = $k;
+      break;
+   }
+}
+$guide_name = $guide_key ? $guide_key : htmlspecialchars($raw_guide);
+$guide_info = isset($guide_map[$guide_name]) ? $guide_map[$guide_name] : $guide_map['Alex Morgan'];
+$guide_avatar = $guide_info['avatar'];
+$guide_location = $guide_info['location'];
+$guide_badge = $guide_info['badge'];
+$guide_rating = $guide_info['rating'];
+
+$tour_title = isset($_GET['tour']) && !empty($_GET['tour']) ? htmlspecialchars(trim($_GET['tour'])) : "Rural Trail Journey with a Farmers’ Lunch Basket";
+
+$page_title = "$tour_title – Guided by $guide_name – TripInBlink";
 $current_page = "tour-details";
 
 include 'include/header.php';
@@ -15,7 +99,8 @@ include 'include/header.php';
                   <nav class="breadcrumbs">
                      <ul>
                         <li><a href="index.php">TripInBlink Travel</a></li>
-                        <li>Full-Day Hiking Adventure with Picnic Lunch.</li>
+                        <li><a href="tour-guide-details.php?name=<?= urlencode($guide_name) ?>"><?= htmlspecialchars($guide_name) ?></a></li>
+                        <li><?= $tour_title ?></li>
                      </ul>
                   </nav>
                </div>
@@ -30,16 +115,14 @@ include 'include/header.php';
             <div class="row">
                <div class="col-12">
                   <div class="tp-tour-details">
-                     <h2 class="tp-breadcrumb-title text-black mb-15">Rural Trail Journey with a Farmers’ Lunch Basket
-                     </h2>
+                     <h2 class="tp-breadcrumb-title text-black mb-15"><?= $tour_title ?></h2>
                      <div class="tp-tour-details-meta mb-20">
                         <span>
                            <a href="#">English</a>
-                           <a href="#">Chinese</a>
-                           <a href="#">Japanese</a>
-                           <a href="#">Korean</a>
+                           <a href="#">Spanish</a>
+                           <a href="#">French</a>
                         </span>
-                        <span><a href="tour-guide-details.php?name=Alex+Morgan">Meet with guide</a></span>
+                        <span><a href="tour-guide-details.php?name=<?= urlencode($guide_name) ?>"><i class="fa-solid fa-user-check mr-5"></i> Meet with guide: <strong><?= htmlspecialchars($guide_name) ?></strong></a></span>
                         <span>6 to 8 Hours</span>
                      </div>
                      <div
@@ -357,7 +440,31 @@ include 'include/header.php';
                            </div>
                         </div>
                         <div class="tp-tour-itinerary-wrap mb-70">
-                           <h3 class="tp-tour-details-title fw-600 mb-20">Tour Plan</h3>
+                           <div class="d-flex align-items-center justify-content-between flex-wrap gap-2 mb-20">
+                              <h3 class="tp-tour-details-title fw-600 mb-0">Tour Plan &amp; Itinerary</h3>
+                              <a href="tour-guide-details.php?name=<?= urlencode($guide_name) ?>" class="d-inline-flex align-items-center gap-2 px-3 py-1 rounded-pill" style="background: rgba(253, 70, 33, 0.08); border: 1px solid rgba(253, 70, 33, 0.25); text-decoration: none;">
+                                 <img src="<?= $guide_avatar ?>" alt="<?= htmlspecialchars($guide_name) ?>" style="width: 24px; height: 24px; border-radius: 50%; object-fit: cover;">
+                                 <span style="font-size: 13px; color: var(--tp-theme-1); font-weight: 600;">Guided by <?= htmlspecialchars($guide_name) ?> &rarr;</span>
+                              </a>
+                           </div>
+
+                           <!-- Guide Itinerary Feature Box -->
+                           <div class="mb-30 p-3 rounded-3 d-flex align-items-center justify-content-between flex-wrap gap-3" style="background: #fff8f7; border: 1.5px dashed rgba(253, 70, 33, 0.4);">
+                              <div class="d-flex align-items-center gap-3">
+                                 <a href="tour-guide-details.php?name=<?= urlencode($guide_name) ?>">
+                                    <img src="<?= $guide_avatar ?>" alt="<?= htmlspecialchars($guide_name) ?>" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; border: 2px solid var(--tp-theme-1);">
+                                 </a>
+                                 <div>
+                                    <span class="badge text-white" style="background: var(--tp-theme-1); font-size: 11px;">Verified Itinerary Guide</span>
+                                    <h5 class="mb-0 mt-1 fw-bold"><a href="tour-guide-details.php?name=<?= urlencode($guide_name) ?>" style="color: #071516; text-decoration: none;"><?= htmlspecialchars($guide_name) ?></a></h5>
+                                    <span class="text-muted text-12"><i class="fa-solid fa-map-marker-alt" style="color: var(--tp-theme-1);"></i> <?= $guide_location ?> &bull; <?= $guide_rating ?></span>
+                                 </div>
+                              </div>
+                              <a href="tour-guide-details.php?name=<?= urlencode($guide_name) ?>" class="btn btn-sm btn-dark rounded-pill px-3 py-2 fw-bold text-12">
+                                 View Guide Profile &rarr;
+                              </a>
+                           </div>
+
                            <div class="p-relative mb-40">
                               <div class="swiper-container tp-tour-itinerary-slider-active fix">
                                  <div class="swiper-wrapper">
@@ -381,12 +488,14 @@ include 'include/header.php';
                                        <div class="lh-1">
                                           <span class="tp-tour-itinerary-route fw-400 lh-1 mb-5 d-inline-block">Days
                                              in</span>
-                                          <h3 class="tp-tour-itinerary-city fw-500 lh-1 mb-0">Thailand</h3>
+                                          <h3 class="tp-tour-itinerary-city fw-500 lh-1 mb-0"><?= $guide_info['city'] ?></h3>
                                        </div>
                                     </div>
                                  </div>
                                  <div class="tp-tour-details-destination-img">
-                                    <img src="assets/img/tour/details-2/itinerary/user.png" alt="">
+                                    <a href="tour-guide-details.php?name=<?= urlencode($guide_name) ?>" title="View Guide Profile: <?= htmlspecialchars($guide_name) ?>">
+                                       <img src="<?= $guide_avatar ?>" alt="<?= htmlspecialchars($guide_name) ?>" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; border: 2px solid var(--tp-theme-1);">
+                                    </a>
                                  </div>
                               </div>
                               <div class="tp-tour-itinerary-slider-arrow">
@@ -863,6 +972,24 @@ include 'include/header.php';
                   </div>
                   <div class="col-lg-5">
                      <div class="tp-booking-sidebar-wrap tp-booking-5-sidebar-wrap ml-30 mb-30">
+                        <!-- Dedicated Guide Profile Strip in Sidebar -->
+                        <div class="tp-guide-sidebar-card mb-25 p-3 rounded-3" style="background: #ffffff; border: 1.5px solid #eaeaea; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+                           <div class="d-flex align-items-center gap-3">
+                              <a href="tour-guide-details.php?name=<?= urlencode($guide_name) ?>">
+                                 <img src="<?= $guide_avatar ?>" alt="<?= htmlspecialchars($guide_name) ?>" style="width: 52px; height: 52px; border-radius: 50%; object-fit: cover; border: 2px solid var(--tp-theme-1);">
+                              </a>
+                              <div style="flex: 1;">
+                                 <span class="badge" style="background: rgba(253, 70, 33, 0.1); color: var(--tp-theme-1); font-size: 11px; font-weight: 700;">Verified Guide &amp; Host</span>
+                                 <h5 class="mb-0 mt-1 fw-bold text-16"><a href="tour-guide-details.php?name=<?= urlencode($guide_name) ?>" style="color: #071516; text-decoration: none;"><?= htmlspecialchars($guide_name) ?></a></h5>
+                                 <span class="text-muted text-12"><i class="ri-map-pin-line"></i> <?= $guide_location ?></span>
+                              </div>
+                           </div>
+                           <div class="mt-3 pt-2 border-top d-flex justify-content-between align-items-center">
+                              <span class="text-12 text-muted"><i class="fa-solid fa-star text-warning"></i> <?= $guide_rating ?></span>
+                              <a href="tour-guide-details.php?name=<?= urlencode($guide_name) ?>" class="text-12 fw-bold" style="color: var(--tp-theme-1); text-decoration: none;">View Full Profile &rarr;</a>
+                           </div>
+                        </div>
+
                         <div class="tp-booking-sidebar-item">
                            <div class="tp-tour-details-price d-flex align-items-end mb-25">
                               <div class="tp-tour-top-price mr-5">
@@ -1066,7 +1193,7 @@ include 'include/header.php';
                <div class="col-xl-4 col-lg-6 col-md-6">
                   <div class="tp-tour-item mb-50">
                      <div class="tp-tour-thumb p-relative fix">
-                        <a href="tour-details-2.php" class="image">
+                        <a href="tour-details.php?tour=Chiang+mai+mountain+eco&guide=Alex+Morgan" class="image">
                            <img src="assets/img/tour/01.jpg" alt="tour">
                         </a>
                         <span class="tp-tour-wishlist">
@@ -1168,7 +1295,14 @@ include 'include/header.php';
                            </div>
                            <span class="tp-tour-review-score tp-ff-inter">( 05 Reviews )</span>
                         </div>
-                        <h3 class="tp-tour-title fw-500 mb-10"><a href="tour-details-2.php">Chiang mai mountain eco
+                        <div class="mb-10 mt-5">
+                           <a href="tour-guide-details.php?name=Alex+Morgan" class="d-inline-flex align-items-center gap-2 text-muted text-13" style="text-decoration:none;">
+                              <img src="assets/img/guide/guide-1.jpg" style="width:22px;height:22px;border-radius:50%;object-fit:cover;" alt="Alex Morgan">
+                              <span>Guided by <strong class="text-dark">Alex Morgan</strong></span>
+                              <i class="ri-checkbox-circle-fill text-success text-12"></i>
+                           </a>
+                        </div>
+                        <h3 class="tp-tour-title fw-500 mb-10"><a href="tour-details.php?tour=Chiang+mai+mountain+eco&guide=Alex+Morgan">Chiang mai mountain eco
                               adventure tour.</a></h3>
                         <div class="tp-tour-info">
                            <span>
@@ -1228,7 +1362,7 @@ include 'include/header.php';
                               </div>
                            </div>
                            <div class="tp-tour-btn">
-                              <a href="tour-details-2.php" class="tp-btn-sm fw-500 tp-ff-inter">Book A tour</a>
+                              <a href="tour-details.php?tour=Chiang+mai+mountain+eco&guide=Alex+Morgan" class="tp-btn-sm fw-500 tp-ff-inter">Book A tour</a>
                            </div>
                         </div>
                      </div>
@@ -1237,7 +1371,7 @@ include 'include/header.php';
                <div class="col-xl-4 col-lg-6 col-md-6">
                   <div class="tp-tour-item mb-50">
                      <div class="tp-tour-thumb p-relative fix">
-                        <a href="tour-details-2.php" class="image">
+                        <a href="tour-details.php?tour=Jungle+walking+tour&guide=William+Scott" class="image">
                            <img src="assets/img/tour/02.jpg" alt="tour">
                         </a>
                         <span class="tp-tour-wishlist">
@@ -1336,7 +1470,14 @@ include 'include/header.php';
                            </div>
                            <span class="tp-tour-review-score tp-ff-inter">( 05 Reviews )</span>
                         </div>
-                        <h3 class="tp-tour-title fw-500 mb-10"><a href="tour-details-2.php">Jungle walking tour with an
+                        <div class="mb-10 mt-5">
+                           <a href="tour-guide-details.php?name=William+Scott" class="d-inline-flex align-items-center gap-2 text-muted text-13" style="text-decoration:none;">
+                              <img src="assets/img/guide/guide-2.jpg" style="width:22px;height:22px;border-radius:50%;object-fit:cover;" alt="William Scott">
+                              <span>Guided by <strong class="text-dark">William Scott</strong></span>
+                              <i class="ri-checkbox-circle-fill text-success text-12"></i>
+                           </a>
+                        </div>
+                        <h3 class="tp-tour-title fw-500 mb-10"><a href="tour-details.php?tour=Jungle+walking+tour&guide=William+Scott">Jungle walking tour with an
                               authentic cultural lunch</a></h3>
                         <div class="tp-tour-info">
                            <span>
@@ -1395,7 +1536,7 @@ include 'include/header.php';
                               </div>
                            </div>
                            <div class="tp-tour-btn">
-                              <a href="tour-details-2.php" class="tp-btn-sm fw-500 tp-ff-inter">Book A tour</a>
+                              <a href="tour-details.php?tour=Jungle+walking+tour&guide=William+Scott" class="tp-btn-sm fw-500 tp-ff-inter">Book A tour</a>
                            </div>
                         </div>
                      </div>
@@ -1404,7 +1545,7 @@ include 'include/header.php';
                <div class="col-xl-4 col-lg-6 col-md-6">
                   <div class="tp-tour-item mb-50">
                      <div class="tp-tour-thumb p-relative fix">
-                        <a href="tour-details-2.php" class="image">
+                        <a href="tour-details.php?tour=Desert+adventure+safari&guide=Olivia+Martin" class="image">
                            <img src="assets/img/tour/03.jpg" alt="tour">
                         </a>
                         <span class="tp-tour-wishlist">
@@ -1503,7 +1644,14 @@ include 'include/header.php';
                            </div>
                            <span class="tp-tour-review-score tp-ff-inter">( 05 Reviews )</span>
                         </div>
-                        <h3 class="tp-tour-title fw-500 mb-10"><a href="tour-details-2.php">Desert adventure safari
+                        <div class="mb-10 mt-5">
+                           <a href="tour-guide-details.php?name=Olivia+Martin" class="d-inline-flex align-items-center gap-2 text-muted text-13" style="text-decoration:none;">
+                              <img src="assets/img/guide/guide-3.jpg" style="width:22px;height:22px;border-radius:50%;object-fit:cover;" alt="Olivia Martin">
+                              <span>Guided by <strong class="text-dark">Olivia Martin</strong></span>
+                              <i class="ri-checkbox-circle-fill text-success text-12"></i>
+                           </a>
+                        </div>
+                        <h3 class="tp-tour-title fw-500 mb-10"><a href="tour-details.php?tour=Desert+adventure+safari&guide=Olivia+Martin">Desert adventure safari
                               with a Sunset dinner package</a></h3>
                         <div class="tp-tour-info">
                            <span>
@@ -1562,7 +1710,7 @@ include 'include/header.php';
                               </div>
                            </div>
                            <div class="tp-tour-btn">
-                              <a href="tour-details-2.php" class="tp-btn-sm fw-500 tp-ff-inter">Book A tour</a>
+                              <a href="tour-details.php?tour=Desert+adventure+safari&guide=Olivia+Martin" class="tp-btn-sm fw-500 tp-ff-inter">Book A tour</a>
                            </div>
                         </div>
                      </div>

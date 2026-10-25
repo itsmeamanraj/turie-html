@@ -158,7 +158,7 @@ include 'include/header.php';
                         </div>
                      </div>
                      <div>
-                        <a href="tour-details-5.php" class="tp-btn tp-btn-50">
+                        <a href="tour-details.php" class="tp-btn tp-btn-50">
                            Book Now!
                            <svg width="11" height="10" viewBox="0 0 11 10" fill="none"
                               xmlns="http://www.w3.org/2000/svg">

@@ -918,7 +918,7 @@ include 'include/header.php';
                   data-wow-delay=".3s">
                   <div class="tp-tour-item mb-50">
                      <div class="tp-tour-thumb p-relative fix">
-                        <a href="tour-details-2.php" class="image">
+                        <a href="tour-details.php?tour=Chiang+mai+mountain+eco&guide=Alex+Morgan" class="image">
                            <img src="assets/img/tour/01.jpg" alt="tour">
                         </a>
                         <span class="tp-tour-wishlist">
@@ -1020,7 +1020,14 @@ include 'include/header.php';
                            </div>
                            <span class="tp-tour-review-score tp-ff-inter">( 05 Reviews )</span>
                         </div>
-                        <h3 class="tp-tour-title fw-500 mb-10"><a href="tour-details-2.php">Chiang mai mountain eco
+                        <div class="mb-10 mt-5">
+                           <a href="tour-guide-details.php?name=Alex+Morgan" class="d-inline-flex align-items-center gap-2 text-muted text-13" style="text-decoration:none;">
+                              <img src="assets/img/guide/guide-1.jpg" style="width:22px;height:22px;border-radius:50%;object-fit:cover;" alt="Alex Morgan">
+                              <span>Guided by <strong class="text-dark">Alex Morgan</strong></span>
+                              <i class="ri-checkbox-circle-fill text-success text-12"></i>
+                           </a>
+                        </div>
+                        <h3 class="tp-tour-title fw-500 mb-10"><a href="tour-details.php?tour=Chiang+mai+mountain+eco&guide=Alex+Morgan">Chiang mai mountain eco
                               adventure tour.</a></h3>
                         <div class="tp-tour-info">
                            <span>
@@ -1080,7 +1087,7 @@ include 'include/header.php';
                               </div>
                            </div>
                            <div class="tp-tour-btn">
-                              <a href="tour-details-2.php" class="tp-btn-sm fw-500 tp-ff-inter">Book A tour</a>
+                              <a href="tour-details.php?tour=Chiang+mai+mountain+eco&guide=Alex+Morgan" class="tp-btn-sm fw-500 tp-ff-inter">Book A tour</a>
                            </div>
                         </div>
                      </div>
@@ -1090,7 +1097,7 @@ include 'include/header.php';
                   data-wow-delay=".5s">
                   <div class="tp-tour-item mb-50">
                      <div class="tp-tour-thumb p-relative fix">
-                        <a href="tour-details-2.php" class="image">
+                        <a href="tour-details.php?tour=Jungle+walking+tour&guide=William+Scott" class="image">
                            <img src="assets/img/tour/02.jpg" alt="tour">
                         </a>
                         <span class="tp-tour-wishlist">
@@ -1189,7 +1196,14 @@ include 'include/header.php';
                            </div>
                            <span class="tp-tour-review-score tp-ff-inter">( 05 Reviews )</span>
                         </div>
-                        <h3 class="tp-tour-title fw-500 mb-10"><a href="tour-details-2.php">Jungle walking tour with an
+                        <div class="mb-10 mt-5">
+                           <a href="tour-guide-details.php?name=William+Scott" class="d-inline-flex align-items-center gap-2 text-muted text-13" style="text-decoration:none;">
+                              <img src="assets/img/guide/guide-2.jpg" style="width:22px;height:22px;border-radius:50%;object-fit:cover;" alt="William Scott">
+                              <span>Guided by <strong class="text-dark">William Scott</strong></span>
+                              <i class="ri-checkbox-circle-fill text-success text-12"></i>
+                           </a>
+                        </div>
+                        <h3 class="tp-tour-title fw-500 mb-10"><a href="tour-details.php?tour=Jungle+walking+tour&guide=William+Scott">Jungle walking tour with an
                               authentic cultural lunch</a></h3>
                         <div class="tp-tour-info">
                            <span>
@@ -1248,7 +1262,7 @@ include 'include/header.php';
                               </div>
                            </div>
                            <div class="tp-tour-btn">
-                              <a href="tour-details-2.php" class="tp-btn-sm fw-500 tp-ff-inter">Book A tour</a>
+                              <a href="tour-details.php?tour=Jungle+walking+tour&guide=William+Scott" class="tp-btn-sm fw-500 tp-ff-inter">Book A tour</a>
                            </div>
                         </div>
                      </div>
@@ -1258,7 +1272,7 @@ include 'include/header.php';
                   data-wow-delay=".7s">
                   <div class="tp-tour-item mb-50">
                      <div class="tp-tour-thumb p-relative fix">
-                        <a href="tour-details-2.php" class="image">
+                        <a href="tour-details.php?tour=Desert+adventure+safari&guide=Olivia+Martin" class="image">
                            <img src="assets/img/tour/03.jpg" alt="tour">
                         </a>
                         <span class="tp-tour-wishlist">
@@ -1357,7 +1371,14 @@ include 'include/header.php';
                            </div>
                            <span class="tp-tour-review-score tp-ff-inter">( 05 Reviews )</span>
                         </div>
-                        <h3 class="tp-tour-title fw-500 mb-10"><a href="tour-details-2.php">Desert adventure safari
+                        <div class="mb-10 mt-5">
+                           <a href="tour-guide-details.php?name=Olivia+Martin" class="d-inline-flex align-items-center gap-2 text-muted text-13" style="text-decoration:none;">
+                              <img src="assets/img/guide/guide-3.jpg" style="width:22px;height:22px;border-radius:50%;object-fit:cover;" alt="Olivia Martin">
+                              <span>Guided by <strong class="text-dark">Olivia Martin</strong></span>
+                              <i class="ri-checkbox-circle-fill text-success text-12"></i>
+                           </a>
+                        </div>
+                        <h3 class="tp-tour-title fw-500 mb-10"><a href="tour-details.php?tour=Desert+adventure+safari&guide=Olivia+Martin">Desert adventure safari
                               with a Sunset dinner package</a></h3>
                         <div class="tp-tour-info">
                            <span>
@@ -1416,7 +1437,7 @@ include 'include/header.php';
                               </div>
                            </div>
                            <div class="tp-tour-btn">
-                              <a href="tour-details-2.php" class="tp-btn-sm fw-500 tp-ff-inter">Book A tour</a>
+                              <a href="tour-details.php?tour=Desert+adventure+safari&guide=Olivia+Martin" class="tp-btn-sm fw-500 tp-ff-inter">Book A tour</a>
                            </div>
                         </div>
                      </div>
@@ -1426,7 +1447,7 @@ include 'include/header.php';
                   data-wow-delay=".9s">
                   <div class="tp-tour-item mb-50">
                      <div class="tp-tour-thumb p-relative fix">
-                        <a href="tour-details-2.php" class="image">
+                        <a href="tour-details.php?tour=Scenic+nature+journey&guide=Sofia+Bennett" class="image">
                            <img src="assets/img/tour/04.jpg" alt="tour">
                         </a>
                         <span class="tp-tour-wishlist">
@@ -1528,7 +1549,14 @@ include 'include/header.php';
                            </div>
                            <span class="tp-tour-review-score tp-ff-inter">( 05 Reviews )</span>
                         </div>
-                        <h3 class="tp-tour-title fw-500 mb-10"><a href="tour-details-2.php">Scenic nature journey with
+                        <div class="mb-10 mt-5">
+                           <a href="tour-guide-details.php?name=Sofia+Bennett" class="d-inline-flex align-items-center gap-2 text-muted text-13" style="text-decoration:none;">
+                              <img src="assets/img/guide/guide-4.jpg" style="width:22px;height:22px;border-radius:50%;object-fit:cover;" alt="Sofia Bennett">
+                              <span>Guided by <strong class="text-dark">Sofia Bennett</strong></span>
+                              <i class="ri-checkbox-circle-fill text-success text-12"></i>
+                           </a>
+                        </div>
+                        <h3 class="tp-tour-title fw-500 mb-10"><a href="tour-details.php?tour=Scenic+nature+journey&guide=Sofia+Bennett">Scenic nature journey with
                               a delicious lunch basket</a></h3>
                         <div class="tp-tour-info">
                            <span>
@@ -1587,7 +1615,7 @@ include 'include/header.php';
                               </div>
                            </div>
                            <div class="tp-tour-btn">
-                              <a href="tour-details-2.php" class="tp-btn-sm fw-500 tp-ff-inter">Book A tour</a>
+                              <a href="tour-details.php?tour=Scenic+nature+journey&guide=Sofia+Bennett" class="tp-btn-sm fw-500 tp-ff-inter">Book A tour</a>
                            </div>
                         </div>
                      </div>
@@ -1597,7 +1625,7 @@ include 'include/header.php';
                   data-wow-delay=".3s">
                   <div class="tp-tour-item mb-50">
                      <div class="tp-tour-thumb p-relative fix">
-                        <a href="tour-details-2.php" class="image">
+                        <a href="tour-details.php?tour=Bangkok+urban+green&guide=Emma+Lawson" class="image">
                            <img src="assets/img/tour/06.jpg" alt="tour">
                         </a>
                         <span class="tp-tour-wishlist">
@@ -1696,7 +1724,14 @@ include 'include/header.php';
                            </div>
                            <span class="tp-tour-review-score tp-ff-inter">( 05 Reviews )</span>
                         </div>
-                        <h3 class="tp-tour-title fw-500 mb-10"><a href="tour-details-2.php">Bangkok urban green nice
+                        <div class="mb-10 mt-5">
+                           <a href="tour-guide-details.php?name=Emma+Lawson" class="d-inline-flex align-items-center gap-2 text-muted text-13" style="text-decoration:none;">
+                              <img src="assets/img/guide/guide-5.jpg" style="width:22px;height:22px;border-radius:50%;object-fit:cover;" alt="Emma Lawson">
+                              <span>Guided by <strong class="text-dark">Emma Lawson</strong></span>
+                              <i class="ri-checkbox-circle-fill text-success text-12"></i>
+                           </a>
+                        </div>
+                        <h3 class="tp-tour-title fw-500 mb-10"><a href="tour-details.php?tour=Bangkok+urban+green&guide=Emma+Lawson">Bangkok urban green nice
                               spaces walking tour.</a></h3>
                         <div class="tp-tour-info">
                            <span>
@@ -1755,7 +1790,7 @@ include 'include/header.php';
                               </div>
                            </div>
                            <div class="tp-tour-btn">
-                              <a href="tour-details-2.php" class="tp-btn-sm fw-500 tp-ff-inter">Book A tour</a>
+                              <a href="tour-details.php?tour=Bangkok+urban+green&guide=Emma+Lawson" class="tp-btn-sm fw-500 tp-ff-inter">Book A tour</a>
                            </div>
                         </div>
                      </div>
@@ -1765,7 +1800,7 @@ include 'include/header.php';
                   data-wow-delay=".5s">
                   <div class="tp-tour-item mb-50">
                      <div class="tp-tour-thumb p-relative fix">
-                        <a href="tour-details-2.php" class="image">
+                        <a href="tour-details.php?tour=Sukhothai+historical&guide=Lucas+Garcia" class="image">
                            <img src="assets/img/tour/05.jpg" alt="tour">
                         </a>
                         <span class="tp-tour-wishlist">
@@ -1867,7 +1902,14 @@ include 'include/header.php';
                            </div>
                            <span class="tp-tour-review-score tp-ff-inter">( 05 Reviews )</span>
                         </div>
-                        <h3 class="tp-tour-title fw-500 mb-10"><a href="tour-details-2.php">Sukhothai historical
+                        <div class="mb-10 mt-5">
+                           <a href="tour-guide-details.php?name=Lucas+Garcia" class="d-inline-flex align-items-center gap-2 text-muted text-13" style="text-decoration:none;">
+                              <img src="assets/img/guide/guide-6.jpg" style="width:22px;height:22px;border-radius:50%;object-fit:cover;" alt="Lucas Garcia">
+                              <span>Guided by <strong class="text-dark">Lucas Garcia</strong></span>
+                              <i class="ri-checkbox-circle-fill text-success text-12"></i>
+                           </a>
+                        </div>
+                        <h3 class="tp-tour-title fw-500 mb-10"><a href="tour-details.php?tour=Sukhothai+historical&guide=Lucas+Garcia">Sukhothai historical
                               sustainable cycling tour.</a></h3>
                         <div class="tp-tour-info">
                            <span>
@@ -1927,7 +1969,7 @@ include 'include/header.php';
                               </div>
                            </div>
                            <div class="tp-tour-btn">
-                              <a href="tour-details-2.php" class="tp-btn-sm fw-500 tp-ff-inter">Book A tour</a>
+                              <a href="tour-details.php?tour=Sukhothai+historical&guide=Lucas+Garcia" class="tp-btn-sm fw-500 tp-ff-inter">Book A tour</a>
                            </div>
                         </div>
                      </div>
@@ -1937,7 +1979,7 @@ include 'include/header.php';
                   data-wow-delay=".7s">
                   <div class="tp-tour-item mb-50">
                      <div class="tp-tour-thumb p-relative fix">
-                        <a href="tour-details-2.php" class="image">
+                        <a href="tour-details.php?tour=Full-Day+hiking&guide=Ethan+Brooks" class="image">
                            <img src="assets/img/tour/07.jpg" alt="tour">
                         </a>
                         <span class="tp-tour-wishlist">
@@ -2036,7 +2078,14 @@ include 'include/header.php';
                            </div>
                            <span class="tp-tour-review-score tp-ff-inter">( 05 Reviews )</span>
                         </div>
-                        <h3 class="tp-tour-title fw-500 mb-10"><a href="tour-details-2.php">Full-Day hiking adventure
+                        <div class="mb-10 mt-5">
+                           <a href="tour-guide-details.php?name=Ethan+Brooks" class="d-inline-flex align-items-center gap-2 text-muted text-13" style="text-decoration:none;">
+                              <img src="assets/img/guide/guide-7.jpg" style="width:22px;height:22px;border-radius:50%;object-fit:cover;" alt="Ethan Brooks">
+                              <span>Guided by <strong class="text-dark">Ethan Brooks</strong></span>
+                              <i class="ri-checkbox-circle-fill text-success text-12"></i>
+                           </a>
+                        </div>
+                        <h3 class="tp-tour-title fw-500 mb-10"><a href="tour-details.php?tour=Full-Day+hiking&guide=Ethan+Brooks">Full-Day hiking adventure
                               with Picnic Lunch Provided</a></h3>
                         <div class="tp-tour-info">
                            <span>
@@ -2095,7 +2144,7 @@ include 'include/header.php';
                               </div>
                            </div>
                            <div class="tp-tour-btn">
-                              <a href="tour-details-2.php" class="tp-btn-sm fw-500 tp-ff-inter">Book A tour</a>
+                              <a href="tour-details.php?tour=Full-Day+hiking&guide=Ethan+Brooks" class="tp-btn-sm fw-500 tp-ff-inter">Book A tour</a>
                            </div>
                         </div>
                      </div>
@@ -2105,7 +2154,7 @@ include 'include/header.php';
                   data-wow-delay=".9s">
                   <div class="tp-tour-item mb-50">
                      <div class="tp-tour-thumb p-relative fix">
-                        <a href="tour-details-2.php" class="image">
+                        <a href="tour-details.php?tour=Sunset+desert+journey&guide=Daniel+Harris" class="image">
                            <img src="assets/img/tour/09.jpg" alt="tour">
                         </a>
                         <span class="tp-tour-wishlist">
@@ -2207,7 +2256,14 @@ include 'include/header.php';
                            </div>
                            <span class="tp-tour-review-score tp-ff-inter">( 05 Reviews )</span>
                         </div>
-                        <h3 class="tp-tour-title fw-500 mb-10"><a href="tour-details-2.php">Sunset desert journey with
+                        <div class="mb-10 mt-5">
+                           <a href="tour-guide-details.php?name=Daniel+Harris" class="d-inline-flex align-items-center gap-2 text-muted text-13" style="text-decoration:none;">
+                              <img src="assets/img/guide/guide-8.jpg" style="width:22px;height:22px;border-radius:50%;object-fit:cover;" alt="Daniel Harris">
+                              <span>Guided by <strong class="text-dark">Daniel Harris</strong></span>
+                              <i class="ri-checkbox-circle-fill text-success text-12"></i>
+                           </a>
+                        </div>
+                        <h3 class="tp-tour-title fw-500 mb-10"><a href="tour-details.php?tour=Sunset+desert+journey&guide=Daniel+Harris">Sunset desert journey with
                               a nomadic meal experience</a></h3>
                         <div class="tp-tour-info">
                            <span>
@@ -2267,7 +2323,7 @@ include 'include/header.php';
                               </div>
                            </div>
                            <div class="tp-tour-btn">
-                              <a href="tour-details-2.php" class="tp-btn-sm fw-500 tp-ff-inter">Book A tour</a>
+                              <a href="tour-details.php?tour=Sunset+desert+journey&guide=Daniel+Harris" class="tp-btn-sm fw-500 tp-ff-inter">Book A tour</a>
                            </div>
                         </div>
                      </div>

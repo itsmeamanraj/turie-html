@@ -531,16 +531,20 @@ include 'include/header.php';
                </div>
 
                <div class="row g-4 mt-1">
-                  <?php foreach ($guide_data['tours'] as $tour): ?>
+                  <?php foreach ($guide_data['tours'] as $tour): 
+                     $tour_url = 'tour-details.php?guide=' . urlencode($guide_name) . '&tour=' . urlencode($tour['title']);
+                  ?>
                   <div class="col-md-6 col-sm-12">
                      <div class="guide-tour-card">
                         <div class="guide-tour-thumb">
-                           <img src="<?= $tour['thumb'] ?>" alt="<?= htmlspecialchars($tour['title']) ?>">
+                           <a href="<?= $tour_url ?>">
+                              <img src="<?= $tour['thumb'] ?>" alt="<?= htmlspecialchars($tour['title']) ?>">
+                           </a>
                            <span class="guide-tour-badge"><i class="ri-time-line"></i> <?= $tour['duration'] ?></span>
                         </div>
                         <div class="guide-tour-content">
                            <h4 class="guide-tour-title">
-                              <a href="tour-details.php" style="color: inherit; text-decoration: none;"><?= htmlspecialchars($tour['title']) ?></a>
+                              <a href="<?= $tour_url ?>" style="color: inherit; text-decoration: none;"><?= htmlspecialchars($tour['title']) ?></a>
                            </h4>
                            <div class="guide-tour-meta">
                               <span><i class="ri-map-pin-line"></i> <?= htmlspecialchars($tour['city']) ?></span>
@@ -548,7 +552,7 @@ include 'include/header.php';
                            </div>
                            <div class="guide-tour-footer">
                               <div class="guide-tour-price"><?= $tour['price'] ?> <small>/ person</small></div>
-                              <a href="plan-my-trip.php?tour=<?= urlencode($tour['title']) ?>&host=<?= urlencode($guide_name) ?>" class="btn btn-sm btn-outline-dark rounded-pill px-3 fw-bold">Book Tour</a>
+                              <a href="<?= $tour_url ?>" class="btn btn-sm btn-outline-dark rounded-pill px-3 fw-bold">View Itinerary</a>
                            </div>
                         </div>
                      </div>
