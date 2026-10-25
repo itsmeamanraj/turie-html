@@ -90,7 +90,8 @@
                            <ul>
                               <li><a href="tour-grid-sidebar.php">Group Tour</a></li>
                               <li><a href="plan-my-trip.php">Private Tour</a></li>
-                              <li><a href="guide.php">Plan Your Trip</a></li>
+                              <li><a href="plan-my-trip.php">Plan Your Trip</a></li>
+                              <li><a href="tour-guide-details.php">Tour Guide Profiles</a></li>
                            </ul>
                         </div>
                      </div>

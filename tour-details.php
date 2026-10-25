@@ -39,7 +39,7 @@ include 'include/header.php';
                            <a href="#">Japanese</a>
                            <a href="#">Korean</a>
                         </span>
-                        <span><a href="#">Meet with guide</a></span>
+                        <span><a href="tour-guide-details.php?name=Alex+Morgan">Meet with guide</a></span>
                         <span>6 to 8 Hours</span>
                      </div>
                      <div

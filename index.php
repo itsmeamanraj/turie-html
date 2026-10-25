@@ -426,7 +426,9 @@ include 'include/header.php';
                   <div class="swiper-slide">
                      <div class="tp-team-item mb-30">
                         <div class="tp-team-thumb p-relative mb-25">
-                           <img class="w-100" src="assets/img/team/guide.jpg" alt="Alex Morgan">
+                           <a href="tour-guide-details.php?name=Alex+Morgan">
+                              <img class="w-100" src="assets/img/team/guide.jpg" alt="Alex Morgan">
+                           </a>
                            <div class="tp-team-social">
                               <a href="#">
                                  <svg width="12" height="22" viewBox="0 0 12 22" fill="none"
@@ -476,14 +478,16 @@ include 'include/header.php';
                         </div>
                         <div class="tp-team-content">
                            <span class="tp-team-subtitle d-inline-block lh-1 mb-10">Tourist guide</span>
-                           <h3 class="tp-team-title"><a href="about.php" class="common-underline">Alex Morgan</a></h3>
+                           <h3 class="tp-team-title"><a href="tour-guide-details.php?name=Alex+Morgan" class="common-underline">Alex Morgan</a></h3>
                         </div>
                      </div>
                   </div>
                   <div class="swiper-slide">
                      <div class="tp-team-item mb-30">
                         <div class="tp-team-thumb p-relative mb-25">
-                           <img class="w-100" src="assets/img/team/guide-2.jpg" alt="William Scott">
+                           <a href="tour-guide-details.php?name=William+Scott">
+                              <img class="w-100" src="assets/img/team/guide-2.jpg" alt="William Scott">
+                           </a>
                            <div class="tp-team-social">
                               <a href="#">
                                  <svg width="12" height="22" viewBox="0 0 12 22" fill="none"
@@ -533,14 +537,16 @@ include 'include/header.php';
                         </div>
                         <div class="tp-team-content">
                            <span class="tp-team-subtitle d-inline-block lh-1 mb-10">Tourist guide</span>
-                           <h3 class="tp-team-title"><a href="about.php" class="common-underline">William Scott</a></h3>
+                           <h3 class="tp-team-title"><a href="tour-guide-details.php?name=William+Scott" class="common-underline">William Scott</a></h3>
                         </div>
                      </div>
                   </div>
                   <div class="swiper-slide">
                      <div class="tp-team-item mb-30">
                         <div class="tp-team-thumb p-relative mb-25">
-                           <img class="w-100" src="assets/img/team/guide-3.jpg" alt="Olivia Martin">
+                           <a href="tour-guide-details.php?name=Olivia+Martin">
+                              <img class="w-100" src="assets/img/team/guide-3.jpg" alt="Olivia Martin">
+                           </a>
                            <div class="tp-team-social">
                               <a href="#">
                                  <svg width="12" height="22" viewBox="0 0 12 22" fill="none"
@@ -590,14 +596,16 @@ include 'include/header.php';
                         </div>
                         <div class="tp-team-content">
                            <span class="tp-team-subtitle d-inline-block lh-1 mb-10">Tourist guide</span>
-                           <h3 class="tp-team-title"><a href="about.php" class="common-underline">Olivia Martin</a></h3>
+                           <h3 class="tp-team-title"><a href="tour-guide-details.php?name=Olivia+Martin" class="common-underline">Olivia Martin</a></h3>
                         </div>
                      </div>
                   </div>
                   <div class="swiper-slide">
                      <div class="tp-team-item mb-30">
                         <div class="tp-team-thumb p-relative mb-25">
-                           <img class="w-100" src="assets/img/team/guide-4.jpg" alt="Sofia Bennett">
+                           <a href="tour-guide-details.php?name=Sofia+Bennett">
+                              <img class="w-100" src="assets/img/team/guide-4.jpg" alt="Sofia Bennett">
+                           </a>
                            <div class="tp-team-social">
                               <a href="#">
                                  <svg width="12" height="22" viewBox="0 0 12 22" fill="none"
@@ -647,14 +655,16 @@ include 'include/header.php';
                         </div>
                         <div class="tp-team-content">
                            <span class="tp-team-subtitle d-inline-block lh-1 mb-10">Tourist guide</span>
-                           <h3 class="tp-team-title"><a href="about.php" class="common-underline">Sofia Bennett</a></h3>
+                           <h3 class="tp-team-title"><a href="tour-guide-details.php?name=Sofia+Bennett" class="common-underline">Sofia Bennett</a></h3>
                         </div>
                      </div>
                   </div>
                   <div class="swiper-slide">
                      <div class="tp-team-item mb-30">
                         <div class="tp-team-thumb p-relative mb-25">
-                           <img class="w-100" src="assets/img/team/guide-5.jpg" alt="Emma Lawson">
+                           <a href="tour-guide-details.php?name=Emma+Lawson">
+                              <img class="w-100" src="assets/img/team/guide-5.jpg" alt="Emma Lawson">
+                           </a>
                            <div class="tp-team-social">
                               <a href="#">
                                  <svg width="12" height="22" viewBox="0 0 12 22" fill="none"
@@ -704,14 +714,16 @@ include 'include/header.php';
                         </div>
                         <div class="tp-team-content">
                            <span class="tp-team-subtitle d-inline-block lh-1 mb-10">Tourist guide</span>
-                           <h3 class="tp-team-title"><a href="about.php" class="common-underline">Emma Lawson</a></h3>
+                           <h3 class="tp-team-title"><a href="tour-guide-details.php?name=Emma+Lawson" class="common-underline">Emma Lawson</a></h3>
                         </div>
                      </div>
                   </div>
                   <div class="swiper-slide">
                      <div class="tp-team-item mb-30">
                         <div class="tp-team-thumb p-relative mb-25">
-                           <img class="w-100" src="assets/img/team/guide-6.jpg" alt="Lucas Garcia">
+                           <a href="tour-guide-details.php?name=Lucas+Garcia">
+                              <img class="w-100" src="assets/img/team/guide-6.jpg" alt="Lucas Garcia">
+                           </a>
                            <div class="tp-team-social">
                               <a href="#">
                                  <svg width="12" height="22" viewBox="0 0 12 22" fill="none"
@@ -761,14 +773,16 @@ include 'include/header.php';
                         </div>
                         <div class="tp-team-content">
                            <span class="tp-team-subtitle d-inline-block lh-1 mb-10">Tourist guide</span>
-                           <h3 class="tp-team-title"><a href="about.php" class="common-underline">Lucas Garcia</a></h3>
+                           <h3 class="tp-team-title"><a href="tour-guide-details.php?name=Lucas+Garcia" class="common-underline">Lucas Garcia</a></h3>
                         </div>
                      </div>
                   </div>
                   <div class="swiper-slide">
                      <div class="tp-team-item mb-30">
                         <div class="tp-team-thumb p-relative mb-25">
-                           <img class="w-100" src="assets/img/team/guide-7.jpg" alt="Ethan Brooks">
+                           <a href="tour-guide-details.php?name=Ethan+Brooks">
+                              <img class="w-100" src="assets/img/team/guide-7.jpg" alt="Ethan Brooks">
+                           </a>
                            <div class="tp-team-social">
                               <a href="#">
                                  <svg width="12" height="22" viewBox="0 0 12 22" fill="none"
@@ -818,14 +832,16 @@ include 'include/header.php';
                         </div>
                         <div class="tp-team-content">
                            <span class="tp-team-subtitle d-inline-block lh-1 mb-10">Tourist guide</span>
-                           <h3 class="tp-team-title"><a href="about.php" class="common-underline">Ethan Brooks</a></h3>
+                           <h3 class="tp-team-title"><a href="tour-guide-details.php?name=Ethan+Brooks" class="common-underline">Ethan Brooks</a></h3>
                         </div>
                      </div>
                   </div>
                   <div class="swiper-slide">
                      <div class="tp-team-item mb-30">
                         <div class="tp-team-thumb p-relative mb-25">
-                           <img class="w-100" src="assets/img/team/guide-8.jpg" alt="Daniel Harris">
+                           <a href="tour-guide-details.php?name=Daniel+Harris">
+                              <img class="w-100" src="assets/img/team/guide-8.jpg" alt="Daniel Harris">
+                           </a>
                            <div class="tp-team-social">
                               <a href="#">
                                  <svg width="12" height="22" viewBox="0 0 12 22" fill="none"
@@ -875,7 +891,7 @@ include 'include/header.php';
                         </div>
                         <div class="tp-team-content">
                            <span class="tp-team-subtitle d-inline-block lh-1 mb-10">Tourist guide</span>
-                           <h3 class="tp-team-title"><a href="about.php" class="common-underline">Daniel Harris</a></h3>
+                           <h3 class="tp-team-title"><a href="tour-guide-details.php?name=Daniel+Harris" class="common-underline">Daniel Harris</a></h3>
                         </div>
                      </div>
                   </div>
