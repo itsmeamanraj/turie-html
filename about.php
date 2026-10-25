@@ -353,7 +353,7 @@ include 'include/header.php';
       <div class="tp-video-area tp-video-2-mt pt-200 mt-140 p-relative z-index-1">
          <div class="tp-video-2 p-absolute fix">
             <video loop="" muted="" autoplay="" playsinline="">
-               <source src="https://html.aqlova.com/videos/tripInblink/video-6.mp4" type="video/mp4">
+               <source src="assets/video/video-6.mp4" type="video/mp4">
             </video>
          </div>
          <div class="container">

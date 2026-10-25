@@ -55,7 +55,7 @@ include 'include/header.php';
                      </div>
                      <div class="tp-hero-4-video p-relative d-none d-md-block">
                         <video loop="" muted="" autoplay="" playsinline="">
-                           <source src="https://html.aqlova.com/videos/tripInblink/video-2.mp4" type="video/mp4">
+                           <source src="assets/video/video-2.mp4" type="video/mp4">
                         </video>
                      </div>
                   </div>
