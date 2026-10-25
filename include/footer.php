@@ -88,11 +88,9 @@
                         <h3 class="tp-footer-widget-title fw-600 mb-15">Services</h3>
                         <div class="tp-footer-widget-menu">
                            <ul>
-                              <li><a href="tour-grid-sidebar.php">Tour Packages</a></li>
-                              <li><a href="plan-my-trip.php">Custom Trip Planner</a></li>
-                              <li><a href="guide.php">Local Guide Platform</a></li>
-                              <li><a href="operator.php">Tour Operator Portal</a></li>
-                              <li><a href="about.php">Travel Support</a></li>
+                              <li><a href="tour-grid-sidebar.php">Group Tour</a></li>
+                              <li><a href="plan-my-trip.php">Private Tour</a></li>
+                              <li><a href="guide.php">Plan Your Trip</a></li>
                            </ul>
                         </div>
                      </div>
